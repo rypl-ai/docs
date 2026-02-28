@@ -1,0 +1,7 @@
+title: Rypl Documentation
+description: Official documentation for Rypl — AI-powered Facebook ad comment management platform
+url: https://rypl-ai.github.io
+theme: jekyll-theme-cayman
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
