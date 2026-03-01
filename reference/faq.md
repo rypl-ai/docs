@@ -116,7 +116,7 @@ Rypl is specialized for Facebook ad comment management, while NapoleonCat and Ma
 | **Moderation Speed** | ~1.7 seconds | Manual/rules-based | Not focused on moderation |
 | **Intent Detection** | 8 intent categories | Not available | Not available |
 | **Knowledge Base** | Product catalogs, FAQ, URLs | Not available | Limited |
-| **Starting Price** | $19/mo | ~$32/mo | $15/mo |
+| **Starting Price** | $19/mo | $79/mo | $15/mo |
 | **Meta API** | Official Graph API | Official API | Official API |
 
 Rypl's advantage is depth over breadth: rather than offering basic features for every platform, Rypl provides deep, specialized AI capabilities specifically for Facebook ad comments.
