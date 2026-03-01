@@ -1,0 +1,129 @@
+<style>
+  /* ─── Dark header override ─── */
+  .page-header {
+    background: linear-gradient(160deg, #0d0d0f 0%, #1a1a2e 50%, #0d0d0f 100%) !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    padding: 2rem 1rem 2rem;
+  }
+
+  .header-logo {
+    margin-bottom: 1rem;
+  }
+
+  .header-logo img {
+    border-radius: 12px;
+    transition: transform 0.2s ease;
+  }
+
+  .header-logo img:hover {
+    transform: scale(1.05);
+  }
+
+  .project-name {
+    color: #ffffff !important;
+    font-family: 'Inter', 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 2rem !important;
+  }
+
+  .project-tagline {
+    color: rgba(255, 255, 255, 0.65) !important;
+    font-family: 'Inter', 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.05rem !important;
+  }
+
+  .header-actions {
+    margin-top: 1.2rem;
+    display: flex;
+    gap: 0.75rem;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .page-header .btn {
+    background: rgba(255, 255, 255, 0.08) !important;
+    border: 1px solid rgba(255, 255, 255, 0.15) !important;
+    color: #ffffff !important;
+    font-family: 'Inter', 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 0.9rem;
+    padding: 0.6rem 1.4rem;
+    border-radius: 8px;
+    transition: all 0.2s ease;
+    text-decoration: none;
+  }
+
+  .page-header .btn:hover {
+    background: rgba(255, 255, 255, 0.14) !important;
+    border-color: rgba(255, 255, 255, 0.25) !important;
+  }
+
+  .page-header .btn-primary {
+    background: #593bed !important;
+    border-color: #593bed !important;
+  }
+
+  .page-header .btn-primary:hover {
+    background: #402bab !important;
+    border-color: #402bab !important;
+  }
+
+  /* ─── Body and content ─── */
+  body {
+    font-family: 'Inter', 'Open Sans', sans-serif;
+  }
+
+  .main-content h1,
+  .main-content h2,
+  .main-content h3,
+  .main-content h4,
+  .main-content h5,
+  .main-content h6 {
+    font-family: 'Inter', 'Open Sans', sans-serif;
+    color: #1a1a2e;
+  }
+
+  .main-content h1 {
+    font-size: 1.75rem;
+  }
+
+  .main-content h2 {
+    border-bottom-color: rgba(0, 0, 0, 0.08);
+  }
+
+  .main-content a {
+    color: #593bed;
+  }
+
+  .main-content a:hover {
+    color: #402bab;
+  }
+
+  /* ─── Tables ─── */
+  .main-content table th {
+    background-color: #f6f6f9;
+    font-weight: 600;
+  }
+
+  /* ─── Footer ─── */
+  .site-footer {
+    border-top-color: rgba(0, 0, 0, 0.06);
+  }
+
+  /* ─── Mobile ─── */
+  @media screen and (max-width: 42em) {
+    .project-name {
+      font-size: 1.5rem !important;
+    }
+
+    .project-tagline {
+      font-size: 0.95rem !important;
+    }
+
+    .header-actions .btn {
+      font-size: 0.85rem;
+      padding: 0.5rem 1rem;
+    }
+  }
+</style>

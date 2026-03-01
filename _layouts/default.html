@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="UTF-8">
+
+{% seo %}
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" as="style" type="text/css" crossorigin>
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" as="style" type="text/css" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#0d0d0f">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    {% include head-custom.html %}
+  </head>
+  <body>
+    <a id="skip-to-content" href="#content">Skip to the content.</a>
+
+    <header class="page-header" role="banner">
+      <div class="header-logo">
+        <a href="{{ '/' | relative_url }}">
+          <img src="{{ '/assets/logo.svg' | relative_url }}" alt="Rypl" width="48" height="48">
+        </a>
+      </div>
+      <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
+      <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
+      <div class="header-actions">
+        <a href="https://www.rypl.is" class="btn">Visit rypl.is</a>
+        <a href="https://app.rypl.is/signup" class="btn btn-primary">Start Free Trial</a>
+      </div>
+    </header>
+
+    <main id="content" class="main-content" role="main">
+      {{ content }}
+
+      <footer class="site-footer">
+        <span class="site-footer-owner">
+          <a href="https://www.rypl.is">Rypl</a> — AI-powered Facebook ad comment management.
+        </span>
+        <span class="site-footer-credits">
+          <a href="https://github.com/rypl-ai/docs">View on GitHub</a> ·
+          <a href="https://www.rypl.is">Website</a> ·
+          <a href="https://blog.rypl.is">Blog</a>
+        </span>
+      </footer>
+    </main>
+  </body>
+</html>
