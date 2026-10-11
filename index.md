@@ -1,78 +1,85 @@
 ---
 layout: default
-title: Rypl Documentation
-description: Official documentation for Rypl — the AI-powered Facebook ad comment management platform that turns ad comments into sales automatically.
+title: "Rypl Docs"
+description: "Official documentation for Rypl, the AI tool that replies to and moderates comments and DMs on Facebook and Instagram, plus comments on TikTok ads."
+last_modified_at: 2026-10-11
 ---
 
 # Rypl Documentation
 
-Welcome to the official documentation for **[Rypl](https://www.rypl.is)** — the AI-powered platform that manages your Facebook ad comments automatically. Rypl detects spam, replies to real customers, and converts conversations into sales, all without lifting a finger. **[Sign up for a free 7-day trial](https://app.rypl.is/signup)** and see results in your first 24 hours.
+**[Rypl](https://www.rypl.is)** is AI software that replies to and moderates comments and DMs on Facebook and Instagram, plus comments on TikTok ads. AI agents answer buyers in your brand voice from your own knowledge base, spam and hate are hidden automatically, and complaints wait for a person in one inbox. Plans start at $19 a month, with no limit on comments and a [7-day free trial](https://app.rypl.is/signup).
 
 ---
 
-## Quick Start
+## Quick start
 
-Getting started with Rypl takes just a few minutes:
-
-1. **[Create your account](getting-started/sign-up.md)** — Start your 7-day free trial, no credit card hassles.
-2. **[Connect your Facebook Page](getting-started/connect-facebook.md)** — Securely link your pages via Meta's Official Graph API.
-3. **[Create an AI agent](getting-started/create-ai-agent.md)** — Set your brand voice, upload your knowledge base, define moderation rules.
-4. **[Go live](getting-started/go-live.md)** — Activate your agent and start converting comments into customers.
+1. **[Create your account](getting-started/sign-up.md)** and start the 7-day free trial.
+2. **[Connect your channels](getting-started/connect-facebook.md)**: Facebook Pages, Instagram accounts and TikTok ad accounts.
+3. **[Set up an AI agent](getting-started/create-ai-agent.md)**: brand voice, knowledge base and moderation.
+4. **[Go live](getting-started/go-live.md)** and check the first replies.
 
 ---
 
-## Documentation Sections
+## What Rypl handles
+
+| Platform | Comments | Messages |
+|---|---|---|
+| **Facebook** | Ads (including dark posts) and Page posts | Messenger |
+| **Instagram** | Ads and posts | Direct messages |
+| **TikTok** | Ads | — |
+
+Every platform is on every plan. Organic TikTok posts are not supported.
+
+---
+
+## Documentation sections
 
 ### [Getting Started](getting-started/)
-
-Everything you need to go from signup to your first AI-managed comment. Covers account creation, Facebook connection, agent setup, and activation.
+From sign-up to your first AI reply: account, channels, agent, launch.
 
 ### [Configuration](configuration/)
-
-Deep-dive into every configuration option available in Rypl. Learn how to fine-tune your brand voice, build a comprehensive knowledge base, configure intent detection, set moderation rules, and manage multiple accounts.
+Agents and brand voice, knowledge base, moderation (rules, banned words, filters), reply rules, intent detection, languages, the inbox and multiple accounts.
 
 ### [Best Practices](best-practices/)
-
-Proven strategies to get the most out of Rypl. Includes moderation playbooks, reply optimization techniques, and our step-by-step guide to improving ROAS by 10% or more.
+When to hide and when to answer, how to get better replies, and how to measure the effect on your ads.
 
 ### [Use Cases](use-cases/)
-
-See how different business types use Rypl. Detailed guides for e-commerce stores, marketing agencies managing multiple clients, and B2B service providers.
+Set-ups for e-commerce brands, marketing agencies and service businesses.
 
 ### [Reference](reference/)
-
-Technical reference documentation including detailed pricing plan comparisons, the complete FAQ, all supported intent types, and AI model specifications per plan.
+Pricing, FAQ, supported intents and the AI behind Rypl.
 
 ### [Troubleshooting](troubleshooting/)
-
-Solutions to common issues with Facebook connections, agents not replying, and billing questions.
+Connection problems, an agent that isn't replying, and billing questions.
 
 ### [Changelog](changelog.md)
+What changed and when.
 
-Release notes and version history.
-
----
-
-## Key Platform Metrics
-
-| Metric | Value |
-|--------|-------|
-| Average moderation speed | ~1.7 seconds |
-| AI reply time | Under 60 seconds |
-| ROAS improvement (first month) | +10% |
-| Conversations converted to sales | 28% more |
-| Availability | 24/7 automated |
-| Language support | All languages |
 
 ---
 
-## Resources
+## Key facts
 
-- **Website:** [www.rypl.is](https://www.rypl.is)
-- **Application:** [app.rypl.is](https://app.rypl.is)
-- **Blog:** [blog.rypl.is](https://blog.rypl.is)
-- **Contact:** [hey@rypl.is](mailto:hey@rypl.is)
+| | |
+|---|---|
+| **Replies** | Under 60 seconds on the default setting; 97% of Facebook replies within a minute (RYPL's own measurement) |
+| **Spam** | Flagged in about 1.7 seconds on average and hidden within seconds (RYPL's own measurement) |
+| **Languages** | Replies in the language each comment is written in |
+| **Plans** | Simple $19, Pro $49, Ultra $89 per month; about 20% less billed yearly |
+| **Comment limit** | None, on any plan |
+| **Connection** | Official Meta Graph API and TikTok Marketing API |
 
----
 
-Need help? Browse the sections above or [contact our team](mailto:hey@rypl.is) directly.
+## More on rypl.is
+
+- [Facebook comment moderation tool](https://www.rypl.is/facebook-comment-moderation-tool): how Rypl answers and moderates comments on Facebook ads and posts
+- [Instagram comment moderation tool](https://www.rypl.is/instagram-comment-moderation-tool): AI replies and moderation for Instagram ads, posts and DMs
+- [TikTok ad comment moderation tool](https://www.rypl.is/tiktok-comment-moderation-tool): replies and moderation for comments on TikTok ads
+- [Rypl pricing](https://www.rypl.is/pricing): plans from $19 a month, no comment limit, 7-day free trial
+- [Rypl vs the alternatives](https://www.rypl.is/compare): ReplyZen, ManyChat, NapoleonCat and Agorapulse compared, with sources
+- [Ad comment statistics 2026](https://www.rypl.is/blog/ad-comment-statistics-2026): what people write under ads, RYPL data for Q3 2026
+- [Comment management guides](https://www.rypl.is/guides): hide, turn off and auto-reply to comments on Facebook, Instagram and TikTok ads
+- [Ad comment glossary](https://www.rypl.is/glossary): dark posts, hidden comments, Moderation Assist and other terms
+- [Rypl blog](https://www.rypl.is/blog): guides, benchmarks and product updates
+
+**[Start a 7-day free trial](https://app.rypl.is/signup)** · Contact: [hey@rypl.is](mailto:hey@rypl.is)

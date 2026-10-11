@@ -1,79 +1,73 @@
 ---
 layout: default
-title: Configuration — Rypl Documentation
-description: Complete guide to configuring your Rypl AI agents, brand voice, knowledge base, intent detection, moderation rules, and multi-account setup.
+title: "Rypl Settings and Configuration"
+description: "Every Rypl setting: agents and brand voice, knowledge base, moderation, reply rules, intent detection, languages, the inbox and multiple accounts."
+last_modified_at: 2026-10-11
 ---
 
 # Configuration
 
-[Rypl](https://www.rypl.is) gives you full control over how your AI agents behave, what they know, and how they moderate your Facebook ad comments. This section covers every configuration option available in the platform.
+Rypl has two places for settings. The **agent** holds how replies sound and what they know. The **channel** (a Facebook Page with its Instagram account, or a TikTok ad account) holds whether AI replies are on, which agent replies, and how comments are moderated. **Global rules** hold moderation rules and banned words for every channel at once.
 
 ---
 
-## Configuration Areas
+## Pages in this section
 
-### [Brand Voice](brand-voice.md)
+### [Brand voice and instructions](brand-voice.md)
+Tone, instructions, examples, and where and how soon the agent replies.
 
-Define how your AI agent communicates. Set the tone, style guidelines, and provide example replies so your agent sounds exactly like your brand. A well-configured brand voice is the difference between generic auto-replies and responses that feel genuinely human.
+### [Knowledge base](knowledge-base.md)
+Website, Q&A and documents the agent answers from.
 
-### [Knowledge Base](knowledge-base.md)
+### [Moderation](moderation-rules.md)
+Spam and hate filters, banned words, Filter by tone, moderation rules in plain words, and blocking an author.
 
-Equip your agent with the information it needs to answer customer questions accurately. Rypl supports seven different source types — from PDF product catalogs to website URLs — so your agent can handle specific product questions, quote prices, and explain policies.
+### [Reply rules](reply-rules.md)
+Choose what happens to a kind of comment: the agent answers, a ready reply goes out, or nothing.
 
-### [Intent Detection](intent-detection.md)
+### [Intent detection](intent-detection.md)
+How every comment and message is labelled, and what you can do with the labels.
 
-Understand what your customers want before they even finish their sentence. Rypl classifies every incoming comment into one of eight intent categories, enabling smarter replies and more accurate analytics. Available on Pro and Ultra plans.
+### [Languages](multi-language.md)
+Replies in the commenter's language, or a language you choose.
 
-### [Moderation Rules](moderation-rules.md)
+### [Inbox and Needs attention](inbox.md)
+Every comment, reply and hidden comment in one place, and the queue for what needs a person.
 
-Control what gets hidden and what gets through. Configure spam detection sensitivity, negative comment handling, keyword blocklists, and custom rules to keep your ad comments clean and professional.
-
-### [Multi-Language Support](multi-language.md)
-
-Rypl automatically detects the language of incoming comments and responds in the same language. Learn how to optimize your setup for multilingual campaigns targeting audiences worldwide.
-
-### [Multi-Account Management](multi-account.md)
-
-Connect multiple Facebook Pages and manage them from a single dashboard. Essential for agencies and businesses with multiple brands. Configure per-client AI agents with unique voices and knowledge bases.
-
----
-
-## Configuration Best Practices
-
-1. **Start with defaults, then refine** — Rypl's default settings work well for most use cases. Make incremental changes based on actual performance data.
-
-2. **Knowledge base first** — The most impactful configuration change you can make is improving your knowledge base. Better information leads to better replies.
-
-3. **Review before tightening moderation** — Start with moderate moderation settings and adjust based on what you see. Overly aggressive moderation can hide legitimate customer comments.
-
-4. **Test changes during low-traffic hours** — When experimenting with brand voice or moderation rules, make changes when comment volume is low so you can review the impact before peak traffic.
-
-5. **Use intent data to improve** — Check your intent detection analytics regularly. If you see a high volume of Price Inquiry intents, consider adding pricing information to your knowledge base so the agent can answer proactively.
+### [Multiple accounts and pages](multi-account.md)
+Several brands or clients in one Rypl account.
 
 ---
 
-## Plan-Based Feature Availability
+## What's on which plan
 
-Not all configuration options are available on every plan:
+| Setting | Simple | Pro | Ultra |
+|---|---|---|---|
+| Agent instructions, tone, knowledge base | ✅ | ✅ | ✅ |
+| Where it replies, How soon, reply language, emojis | ✅ | ✅ | ✅ |
+| Intent detection | ✅ | ✅ | ✅ |
+| Spam and hate filter, Strict Spam & Media Filter | ✅ | ✅ | ✅ |
+| Banned words (global and per channel) | ✅ | ✅ | ✅ |
+| Filter by tone | ✅ | ✅ | ✅ |
+| Block author | ✅ | ✅ | ✅ |
+| Like positive comments (Facebook) | ✅ | ✅ | ✅ |
+| Suggest improvements | ✅ | ✅ | ✅ |
+| Read the post | — | ✅ | ✅ |
+| Moderation rules in plain words | — | ✅ | ✅ |
+| Reply rules and thank-you replies | — | ✅ | ✅ |
+| Remember the conversation | — | — | ✅ |
+| AI agents | 1 | Unlimited | Unlimited |
+| Accounts / pages | 1 / 3 | 5 / 20 | Unlimited |
 
-| Configuration | Simple | Pro | Ultra |
-|---------------|--------|-----|-------|
-| Brand Voice | Basic | Advanced | Advanced |
-| Knowledge Base | — | Yes | Yes |
-| Intent Detection | — | Yes | Yes |
-| Moderation Rules | Basic | Advanced | Advanced |
-| Multi-Language | Yes | Yes | Yes |
-| Multi-Account | 1 account, 3 pages | 5 accounts, 20 pages | Unlimited |
-| Conversational Memory | — | — | Full |
-| Post Content Analysis | — | Yes | Yes |
+If you move to a lower plan, your rules stay saved; they start working again when you upgrade.
 
-Upgrade your plan at any time from [app.rypl.is](https://app.rypl.is) to unlock additional configuration options.
 
----
 
-## Next Steps
+## More on rypl.is
 
-Start with the configuration area most relevant to your needs, or work through them in order beginning with [Brand Voice](brand-voice.md).
+- [Comment management guides](https://www.rypl.is/guides): hide, turn off and auto-reply to comments on Facebook, Instagram and TikTok ads
+- [Ad comment glossary](https://www.rypl.is/glossary): dark posts, hidden comments, Moderation Assist and other terms
+- [Facebook comment moderation tool](https://www.rypl.is/facebook-comment-moderation-tool): how Rypl answers and moderates comments on Facebook ads and posts
 
 ---
 

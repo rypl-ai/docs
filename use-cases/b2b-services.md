@@ -1,157 +1,73 @@
 ---
 layout: default
-title: B2B Services Use Case — Rypl Documentation
-description: How B2B service providers use Rypl to manage Facebook ad comments, qualify leads, and route service inquiries automatically.
+title: "AI Comment Replies for B2B and Services"
+description: "How service businesses and B2B companies use Rypl to answer questions under lead-generation ads and send qualified leads to a person."
+last_modified_at: 2026-10-11
 ---
 
-# B2B Services Use Case
+# B2B and Services
 
-B2B service providers — consultants, SaaS companies, professional services firms, and agencies — use Facebook ads to generate leads, book appointments, and build brand awareness. [Rypl](https://www.rypl.is) ensures every inquiry gets a fast, professional response, even outside business hours.
-
----
-
-## The B2B Comment Landscape
-
-B2B Facebook ad comments look different from e-commerce:
-
-- **"How much does this cost?"** — Service pricing inquiries, often more complex than product pricing
-- **"Do you work with companies in [industry]?"** — Qualification questions
-- **"How do I get started?"** — High-value lead signals
-- **"Can you help with [specific problem]?"** — Service capability questions
-- **"I already use [competitor]. Why switch?"** — Comparison questions
-- **"Is there a demo or trial?"** — Late-stage evaluation questions
-
-Each of these represents a potential client worth hundreds or thousands of dollars. Response speed and quality matter enormously in B2B.
+Service businesses (clinics, studios, agencies, SaaS, local services) use ads to get leads. The comments under those ads are people asking what it costs, whether you cover their area and how to book. An answer while they are still on the ad keeps the lead; an answer the next day usually doesn't.
 
 ---
 
-## Setting Up Rypl for B2B
+## The knowledge base
 
-### Brand Voice for B2B
+- **Your website.** Service pages, pricing or price ranges, areas served, the booking page.
+- **Files.** A service menu, terms, a one-page overview.
+- **Q&A.** "How much is a consultation?", "Do you work with companies outside the EU?", "How do I book?", with the answer you want given.
 
-B2B communication requires a different tone than consumer brands:
-
-- **Professional but approachable** — Avoid being too casual or too corporate
-- **Knowledgeable** — Demonstrate expertise without being condescending
-- **Solution-oriented** — Focus on how you solve their specific problem
-- **Action-driving** — Guide prospects toward the next step (demo, consultation, DM)
-
-**Example brand voice guidelines for a B2B SaaS:**
-
-```
-Tone: Professional, knowledgeable, and helpful.
-Style: Use complete sentences. Avoid jargon unless the commenter uses it first.
-Always: Mention our free demo. Address the commenter by name. Ask a follow-up question.
-Never: Use excessive emojis. Make unsubstantiated claims. Mention competitor names.
-Sign-off: "Happy to chat more — feel free to DM us or book a demo at [link]."
-```
-
-### Knowledge Base for Services
-
-B2B knowledge bases should focus on:
-
-| Content | Purpose |
-|---------|---------|
-| Service descriptions | What you offer and for whom |
-| Pricing tiers or ranges | Answer cost questions without requiring a sales call |
-| Case studies or results | Provide social proof and concrete outcomes |
-| Industry specializations | Show expertise in the prospect's vertical |
-| Onboarding process | Explain what getting started looks like |
-| FAQ | Common objections and how you address them |
-| Comparison points | Honest positioning vs. alternatives |
-
-### Moderation for B2B
-
-B2B ads generally attract less spam than consumer ads, but you should still configure:
-
-- **Competitor blocking** — Prevent competitors from posting their links in your ad comments
-- **Spam filtering** — "Work from home" and similar off-topic spam still appears
-- **Moderate sensitivity** — B2B comments are less likely to contain profanity, so medium sensitivity works well
+If prices depend on the job, say so in the knowledge base and give the next step ("Prices start at $X; book a free call here: [link]"). The agent can then answer honestly instead of guessing a number.
 
 ---
 
-## Handling B2B-Specific Scenarios
+## Agent instructions for a professional tone
 
-### Appointment Booking
+Examples of instructions that work:
 
-When a commenter expresses interest in your service:
-
-1. **Acknowledge their interest** — Thank them and demonstrate understanding of their need
-2. **Provide immediate value** — Answer their question with specific, relevant information
-3. **Direct to next step** — Share your booking link, demo link, or invite them to DM
-4. **Create urgency when appropriate** — Mention limited availability or upcoming events
-
-**Example flow:**
-
-Comment: "This looks interesting. Do you work with law firms?"
-
-AI Reply: "Hi David! Yes, we work with several law firms and legal practices. We specialize in helping firms like yours streamline client intake and case management. Happy to show you how it works — you can book a quick 15-minute demo here: [booking link]. Or feel free to DM us with any questions!"
-
-### Qualifying Leads Through Comments
-
-Rypl's intent detection helps identify which commenters are the most promising leads:
-
-| Intent | B2B Interpretation | Action |
-|--------|-------------------|--------|
-| Purchase | Ready to buy/sign up | Immediate follow-up with onboarding info |
-| Price Inquiry | Evaluating budget fit | Provide pricing ranges, mention ROI |
-| Product Info | Researching solutions | Share relevant case studies or features |
-| Support | Existing customer needs help | Route to support team |
-| Positive Feedback | Satisfied client | Ask for testimonial or referral |
-| Complaint | Unhappy client | Escalate to account manager |
-
-### Service Inquiry Routing
-
-Not all inquiries should be handled entirely by AI. Configure your agent to:
-
-- **Handle directly:** Common questions about services, pricing, availability, and getting started
-- **Route to sales:** High-value prospects with specific, complex needs
-- **Route to support:** Existing customers with service issues
-- **Flag for review:** Comments from identifiable decision-makers or large companies
+- "Answer in two sentences at most, then give the booking link."
+- "Never quote a final price; give the starting price and offer a call."
+- "Don't give medical, legal or financial advice. Say a specialist will reply and stop."
+- "Use formal address in German and French."
 
 ---
 
-## B2B Metrics That Matter
+## Sending leads and issues to a person
 
-Track these metrics to measure Rypl's impact on your B2B ad campaigns:
+Leads and issues that need a person go to the **Needs attention** queue in the inbox:
 
-- **Lead response time** — How quickly potential clients receive their first reply (target: under 60 seconds)
-- **Lead qualification rate** — Percentage of commenters who move to the next stage (demo, consultation, DM)
-- **Comment-to-meeting conversion** — How many comments result in booked meetings
-- **After-hours inquiries handled** — Leads captured outside business hours that would have otherwise been lost
-- **Cost per lead** — Whether faster, more consistent responses reduce your effective CPL
+- **Complaints** go there by default.
+- On Pro and Ultra, a **moderation rule** set to review catches what you define in plain words, for example: *Send comments asking for a quote for more than 10 people to review.*
+- **Reply rules** (Pro and Ultra) can skip a topic so the agent never answers it in public, or send a ready reply, such as your booking link for "how do I book?".
 
 ---
 
-## The 24/7 Advantage for B2B
+## Messages
 
-One of Rypl's biggest advantages for B2B is round-the-clock availability. In B2B:
-
-- Decision-makers browse social media outside business hours
-- International prospects are in different time zones
-- Weekend and evening inquiries are often from serious buyers with more time to research
-
-Without Rypl, a Saturday evening comment goes unanswered until Monday morning — by which time the prospect has contacted your competitor. With Rypl, they get a professional, knowledgeable response in under 60 seconds, regardless of when they comment.
+Agents answer Messenger and Instagram Direct messages as well as comments. Meta allows replies to a DM only within 7 days of the person's last message, so pick up anything in Needs attention within the week.
 
 ---
 
-## Professional Communication Standards
+## What to measure
 
-B2B AI replies should meet higher communication standards:
-
-- **Grammar and spelling** — Flawless. No shortcuts or abbreviations.
-- **Structure** — Logical flow: acknowledge, inform, direct to action.
-- **Substance** — Specific, relevant information rather than generic pleasantries.
-- **Respect for time** — Concise replies that value the reader's time.
-- **Follow-up path** — Every reply should include a clear next step.
+- Median reply time to questions under your ads.
+- Leads that reached Needs attention, and how fast someone followed up.
+- Cost per lead in Ads Manager, before and after.
 
 ---
 
 ## Next Steps
 
-- [Brand Voice Configuration](../configuration/brand-voice.md) — Setting up a professional B2B voice
-- [Intent Detection](../configuration/intent-detection.md) — Using intent data for lead qualification
-- [ROAS Improvement Playbook](../best-practices/roas-improvement.md) — Measuring and improving ad ROI
+- [Create an AI agent](../getting-started/create-ai-agent.md)
+- [Reply Rules](../configuration/reply-rules.md)
+- [Inbox and Needs attention](../configuration/inbox.md)
+
+
+## More on rypl.is
+
+- [Facebook lead leakage](https://www.rypl.is/blog/facebook-lead-leakage-how-ai-stops-it): why sales are lost in the comments
+- [Why comment response time affects ad performance](https://www.rypl.is/blog/comment-response-time-ad-performance): the case for answering fast
+- [Facebook comment moderation tool](https://www.rypl.is/facebook-comment-moderation-tool): how Rypl answers and moderates comments on Facebook ads and posts
 
 ---
 

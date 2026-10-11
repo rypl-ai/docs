@@ -1,107 +1,63 @@
 ---
 layout: default
-title: Multi-Language Support — Rypl Documentation
-description: How Rypl automatically detects languages and responds to Facebook ad comments in any language worldwide.
+title: "Multilingual Comment Replies"
+description: "Rypl replies to Facebook, Instagram and TikTok ad comments in the language each comment is written in, or in a language you choose."
+last_modified_at: 2026-10-11
 ---
 
-# Multi-Language Support
+# Languages
 
-Rypl supports **all languages** — automatically. When a customer comments on your Facebook ad in French, Spanish, Arabic, Japanese, or any other language, Rypl detects the language and responds in that same language. No configuration required.
+Rypl replies in the language each comment is written in. A French comment gets a French reply and a Polish one a Polish reply, from the same agent and the same knowledge base, with no per-language set-up.
 
----
-
-## How Language Detection Works
-
-Rypl's language detection is built into the AI processing pipeline:
-
-1. **A comment arrives** on your Facebook ad in any language
-2. **Rypl's AI identifies** the language of the comment automatically
-3. **The AI generates a reply** in the same language as the comment
-4. **Brand voice and knowledge base** are applied consistently regardless of language
-
-This happens transparently. You do not need to create separate agents for different languages or manually configure language preferences.
+This matters under ads: in [RYPL's Q3 2026 data](https://www.rypl.is/blog/ad-comment-statistics-2026), 70% of the comments RYPL's AI analyzed were not in English, and about 4 in 5 advertisers got comments in two or more languages.
 
 ---
 
-## What Is Supported
+## Reply language
 
-### Languages
+**Reply language** is a channel setting, in the channel's **AI replies** tab:
 
-Rypl supports every language that the underlying AI models can handle, which covers virtually all languages with significant online presence. This includes but is not limited to:
-
-- **European:** English, Spanish, French, German, Italian, Portuguese, Dutch, Polish, Swedish, Norwegian, Danish, Finnish, Greek, Czech, Romanian, Hungarian, Bulgarian, Croatian, Slovak, Slovenian, Lithuanian, Latvian, Estonian
-- **Asian:** Chinese (Simplified and Traditional), Japanese, Korean, Hindi, Thai, Vietnamese, Indonesian, Malay, Filipino, Bengali, Tamil, Telugu, Urdu
-- **Middle Eastern:** Arabic, Hebrew, Turkish, Persian (Farsi)
-- **African:** Swahili, Amharic, Yoruba, Zulu
-- **Other:** Russian, Ukrainian, Georgian, Armenian, Kazakh
-
-### Script Support
-
-Rypl handles all major writing scripts:
-- Latin, Cyrillic, Arabic, Hebrew, Devanagari, CJK characters, Thai, Korean Hangul, Japanese Kana/Kanji, and more
+- **Detect automatically** (default): replies in the language of each comment.
+- **A specific language**: every reply on the channel goes out in that language, whatever the comment is written in. Useful for a channel that serves one market.
 
 ---
 
-## Tips for Multilingual Campaigns
+## Knowledge base in one language is enough
 
-### Knowledge Base Considerations
+The agent uses your knowledge base whatever language the comment is in, so you don't need to translate it. Do add what really differs by market:
 
-Your knowledge base does not need to be translated into every language. Rypl's AI can translate and apply information from your knowledge base regardless of the source language. However, there are benefits to providing some multilingual content:
-
-- **Product names** — If your products have different names in different markets, include both versions
-- **Pricing** — If prices differ by region, include currency-specific information
-- **Policies** — If return or shipping policies vary by country, document the differences
-
-### Brand Voice Across Languages
-
-Your brand voice configuration is applied across all languages. The AI maintains your tone and personality when generating replies in any language. A few considerations:
-
-- **Humor and idioms** — These do not always translate well. If your brand voice relies heavily on wordplay, be aware that the effect may be different in other languages
-- **Formality levels** — Some languages have formal and informal registers (e.g., French "tu" vs. "vous," German "du" vs. "Sie"). Consider adding a note about preferred formality in your brand voice configuration
-- **Cultural sensitivity** — The AI is trained to be culturally appropriate, but reviewing replies in languages you are targeting is always recommended
-
-### Moderation Across Languages
-
-Rypl's spam detection and moderation rules work across all languages:
-
-- **Spam detection** — The AI identifies spam patterns regardless of language
-- **Keyword blocklists** — You can add keywords in any language to your blocklist
-- **Sentiment analysis** — Negative sentiment is detected across languages
-
-If you run ads targeting specific language markets, consider adding language-specific keywords to your blocklist for common spam phrases in those languages.
+- product names that change between countries;
+- prices in local currencies;
+- shipping and return terms that differ by country.
 
 ---
 
-## Monitoring Multilingual Performance
+## Tone across languages
 
-In your Rypl dashboard, you can monitor comment and reply activity across languages:
-
-- See which languages generate the most engagement
-- Review AI replies in each language for quality
-- Track intent distribution across different language markets
-- Identify which language markets have the highest conversion rates
+- **Formal or informal "you".** In languages that have both (French *tu/vous*, German *du/Sie*, Polish *ty/Pan*), say which to use in the agent's instructions.
+- **Humour and idioms** don't always travel. A playful brand voice may need a plainer version for some markets.
+- **Check replies in each language** you target during the first week, ideally with a native speaker.
 
 ---
 
-## Common Scenarios
+## Moderation in any language
 
-### Mixed-Language Comments
-
-Sometimes commenters mix languages (e.g., Spanglish, or switching between languages mid-sentence). Rypl handles this by detecting the dominant language and responding in that language.
-
-### Right-to-Left Languages
-
-Languages like Arabic and Hebrew are fully supported. The AI generates grammatically correct replies with proper text direction.
-
-### Emoji and Non-Text Content
-
-Comments that consist primarily of emojis are processed normally. The AI interprets the emotional context of emoji use when generating replies.
+- Spam, hate and negative tone are detected in any language.
+- **Banned words** match the text you type, so add the words in every language you need, for example a competitor's name in its local spelling.
+- **Moderation rules** (Pro and Ultra) are written once, in any language, and checked against comments in every language. In languages with less online text, check what a new rule catches in **Review first** before switching to Apply automatically.
 
 ---
 
 ## Next Steps
 
-Learn how to manage [Multiple Accounts](multi-account.md) to scale your Rypl setup across multiple Facebook Pages and clients.
+[Inbox and Needs attention](inbox.md).
+
+
+## More on rypl.is
+
+- [Ad comment statistics 2026](https://www.rypl.is/blog/ad-comment-statistics-2026): what people write under ads, RYPL data for Q3 2026
+- [Facebook comment moderation tool](https://www.rypl.is/facebook-comment-moderation-tool): how Rypl answers and moderates comments on Facebook ads and posts
+- [Instagram comment moderation tool](https://www.rypl.is/instagram-comment-moderation-tool): AI replies and moderation for Instagram ads, posts and DMs
 
 ---
 

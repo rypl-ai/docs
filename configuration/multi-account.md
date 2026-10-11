@@ -1,142 +1,72 @@
 ---
 layout: default
-title: Multi-Account Management — Rypl Documentation
-description: How to manage multiple Facebook Pages and AI agents from a single Rypl dashboard. Essential for agencies and multi-brand businesses.
+title: "Multiple Pages, Brands and Clients"
+description: "Run several brands or clients in one Rypl account: accounts and pages per plan, one agent per brand, global and per-channel moderation."
+last_modified_at: 2026-10-11
 ---
 
-# Multi-Account Management
+# Multiple Accounts and Pages
 
-Rypl allows you to connect multiple Facebook accounts and Pages, each with its own dedicated AI agent. Manage everything from a single dashboard — ideal for marketing agencies, multi-brand businesses, and teams handling multiple clients.
-
----
-
-## Plan Limits
-
-| Plan | Facebook Accounts | Pages | AI Agents |
-|------|-------------------|-------|-----------|
-| Simple | 1 | 3 | 2 |
-| Pro | Up to 5 | 20 | Unlimited |
-| Ultra | Unlimited | Unlimited | Unlimited |
-
-If you need more capacity, [upgrade your plan](https://app.rypl.is) at any time.
+One Rypl account can handle several brands or clients. Each Facebook Page (with its Instagram account) or TikTok ad account is a **channel** with its own settings; agents and rules can be shared across channels or kept separate.
 
 ---
 
-## Connecting Multiple Accounts
+## Plan limits
 
-### Adding a New Facebook Account
+| | Simple | Pro | Ultra |
+|---|---|---|---|
+| **Accounts** | 1 | Up to 5 | Unlimited |
+| **Pages** | Up to 3 | Up to 20 | Unlimited |
+| **AI agents** | 1 | Unlimited | Unlimited |
 
-1. From your Rypl dashboard, navigate to **Account Settings** or **Connected Accounts**
-2. Click **"Connect Another Facebook Account"**
-3. Complete the Meta OAuth flow (same process as your [initial connection](../getting-started/connect-facebook.md))
-4. Select the Pages from the new account that you want Rypl to manage
-5. The new Pages appear in your dashboard alongside your existing ones
-
-### Managing Pages Across Accounts
-
-Each connected Facebook account can have multiple Pages. Your Rypl dashboard displays all Pages from all accounts in a unified view. You can:
-
-- Filter by account or client
-- View per-Page metrics and activity
-- Assign or reassign agents to specific Pages
-- Enable or disable management for individual Pages
+An Instagram account linked to a connected Page doesn't count as an extra page. No plan limits the number of comments.
 
 ---
 
-## Per-Client AI Agents
+## Adding accounts
 
-The real power of multi-account management is the ability to create unique AI agents for each client or brand. Every agent can have:
+1. Open **Channels**.
+2. Click **Connect Facebook** (choose **Business profile** for Pages in a Meta Business portfolio, or **Personal profile**) or **Connect TikTok**.
+3. Sign in with the other account and pick the Pages or ad accounts to add.
 
-- **Unique brand voice** — Different tone, style, and personality per client
-- **Separate knowledge base** — Each agent draws from its own product catalog, FAQ, and policies
-- **Custom moderation rules** — Tailored blocklists and sensitivity settings per Page
-- **Independent analytics** — Track performance per agent, per Page, per client
-
-### Example: Agency Setup
-
-Imagine you manage three e-commerce clients:
-
-| Client | Pages | Agent Name | Brand Voice | AI Model |
-|--------|-------|------------|-------------|----------|
-| Acme Fashion | 2 | Acme Bot | Trendy, casual, emoji-friendly | GPT-4.1 |
-| TechGear Pro | 1 | TechGear Assistant | Professional, detailed, spec-focused | GPT-4.1 |
-| FitLife Supplements | 3 | FitLife Helper | Energetic, supportive, health-focused | GPT-4.1 |
-
-Each client's customers experience a completely different interaction — as if they each had their own dedicated customer service team.
+With **Business profile**, every Page you can access in the client's business portfolio is available, and the connection doesn't need re-login.
 
 ---
 
-## Dashboard Management
+## One agent per brand
 
-### Unified Overview
-
-Your Rypl dashboard provides a single-pane view of all managed Pages:
-
-- **Total comments processed** across all clients
-- **Spam hidden** by each agent
-- **AI replies sent** per Page
-- **Response times** across your portfolio
-- **Intent distribution** for each client
-
-### Switching Between Clients
-
-Navigate between clients quickly using the account/Page selector. Each view shows:
-
-- Agent configuration and status
-- Recent comment activity
-- Performance metrics specific to that Page
-- Moderation logs and flagged comments
-
-### Team Workflows
-
-For agencies with multiple team members:
-
-- Assign team members to specific clients or Pages
-- Review and approve AI replies before they are posted (if desired)
-- Share performance reports with clients
-- Coordinate moderation decisions across the team
+Create an agent for each brand or client, with its own instructions, tone and knowledge base, and assign it to that brand's channels in **AI replies**. One agent can serve several channels of the same brand: for example, the brand's Facebook Page with its Instagram account and its TikTok ad account.
 
 ---
 
-## Scaling Your Setup
+## Moderation across channels
 
-### Adding New Clients
-
-When you onboard a new client:
-
-1. Connect their Facebook account via OAuth
-2. Create a new AI agent specific to their brand
-3. Configure brand voice based on their guidelines
-4. Upload their product catalog and FAQ as knowledge base
-5. Set moderation rules appropriate for their audience
-6. Activate and monitor
-
-The entire process takes 10-15 minutes per client.
-
-### Optimizing Across Clients
-
-With multiple clients, you gain insights into what works:
-
-- Compare reply engagement rates across different brand voices
-- Identify which knowledge base structures produce the best replies
-- Share moderation rule improvements across similar clients
-- Benchmark response times and conversion metrics
+- **Global rules**: moderation rules and banned words for every channel at once (moderation rules on Pro and Ultra; banned words on every plan).
+- **Per channel**: banned words, **Filter by tone**, **Strict Spam & Media Filter**, **Like positive comments** (Facebook) and, on Pro and Ultra, rules **Only on this channel**.
+- A channel can skip any global rule by unchecking it.
+- **Channel moderation** lets you change moderation settings on several channels at once.
 
 ---
 
-## Best Practices for Multi-Account Management
+## Working across brands
 
-1. **Name agents clearly** — Use client or brand names in agent names for easy identification
-2. **Document each client's configuration** — Keep notes on why specific brand voice or moderation decisions were made
-3. **Review each client weekly** — Spot-check AI replies across all clients to maintain quality
-4. **Update knowledge bases regularly** — Set reminders to refresh product catalogs and pricing for each client
-5. **Use intent analytics** — Different clients may have different intent distributions; tailor each agent accordingly
+- The [inbox](inbox.md) shows every channel; filter by platform, or open one channel.
+- Each reply shows the agent that wrote it, so you can tell brands apart at a glance.
+- **Needs attention** collects what needs a person across every brand.
 
 ---
 
 ## Next Steps
 
-Explore [Best Practices](../best-practices/) for proven strategies to optimize your Rypl setup across all your clients.
+- [Agencies use case](../use-cases/agencies.md)
+- [Pricing](../reference/pricing.md)
+
+
+## More on rypl.is
+
+- [Managing multiple Facebook Pages with AI: a guide for agencies](https://www.rypl.is/blog/facebook-automation-for-agencies): one agent per client
+- [Rypl pricing](https://www.rypl.is/pricing): plans from $19 a month, no comment limit, 7-day free trial
+- [Rypl vs the alternatives](https://www.rypl.is/compare): ReplyZen, ManyChat, NapoleonCat and Agorapulse compared, with sources
 
 ---
 

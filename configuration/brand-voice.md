@@ -1,127 +1,102 @@
 ---
 layout: default
-title: Brand Voice Configuration — Rypl Documentation
-description: How to configure your Rypl AI agent's brand voice for tone, personality, and style that matches your brand identity.
+title: "Brand Voice and Reply Instructions"
+description: "Make Rypl's AI replies sound like your brand: tone, instructions, examples, emojis, where the agent replies and how soon."
+last_modified_at: 2026-10-11
 ---
 
-# Brand Voice Configuration
+# Brand Voice and Instructions
 
-Your brand voice is the personality of your AI agent. It determines how replies are written — the tone, word choice, sentence structure, and overall feel. A well-configured brand voice makes AI replies indistinguishable from responses written by your best customer service rep.
-
----
-
-## Why Brand Voice Matters
-
-Generic auto-replies feel robotic and impersonal. When a customer asks "How much is this?" and gets a reply that sounds like it came from a real person who knows the brand, they are far more likely to make a purchase. Rypl's brand voice configuration lets you define exactly how your agent communicates.
+Two settings shape how a Rypl agent sounds: its **tone** and its **instructions**. Both live on the agent, so each brand or client can sound different.
 
 ---
 
-## Configuring Your Brand Voice
+## Tone
 
-### Tone Selection
-
-Choose a primary tone that matches your brand:
-
-- **Friendly** — Warm, approachable, conversational. Great for consumer brands.
-- **Professional** — Polished, knowledgeable, authoritative. Ideal for B2B and luxury brands.
-- **Casual** — Relaxed, informal, relatable. Perfect for youth-oriented or lifestyle brands.
-- **Formal** — Structured, precise, respectful. Suitable for financial, legal, or healthcare brands.
-- **Witty** — Clever, humorous, engaging. Works well for entertainment and tech brands.
-
-You can also combine tones. For example, "Professional but friendly" or "Casual with a touch of humor."
-
-### Style Guidelines
-
-Style guidelines are specific instructions that shape how the agent writes. Be as detailed as possible:
-
-**Good examples:**
-- "Use short, punchy sentences. Maximum 2 sentences per reply."
-- "Always address the commenter by their first name."
-- "End every reply with a question to encourage further conversation."
-- "Mention our free shipping on orders over $50 when relevant."
-- "Use emojis sparingly — one per reply maximum."
-- "Never use exclamation marks more than once per reply."
-- "Include our website link when recommending products."
-
-**Too vague (avoid these):**
-- "Be nice"
-- "Sound like a human"
-- "Be helpful"
-
-### Example Prompts
-
-Providing example replies is one of the most effective ways to train your agent. Give 5-10 examples covering different scenarios:
-
-**Example for a fashion brand:**
-
-| Customer Comment | Desired Reply |
-|-----------------|---------------|
-| "How much is this?" | "Hey Sarah! This one's $49.99 and currently 20% off with code STYLE20. Want me to send you the direct link?" |
-| "Does this come in blue?" | "Great taste, Mike! Yes, we have it in navy blue and sky blue. Both are in stock right now." |
-| "When will you restock?" | "Hi Jamie! We're expecting a restock in about 2 weeks. Drop us a DM and we'll notify you the moment it's back!" |
-| "Looks cheap" | "Thanks for your feedback! Our pieces are actually made from premium Italian leather with a 2-year warranty. Happy to share more details if you're interested." |
+| Tone | Description | Example reply to "How much?" |
+|---|---|---|
+| **Neutral** | Clear and professional | "It starts at $39. Want me to send the details?" |
+| **Seller** | Nudges toward buying | "Just $39, and it's our most popular option. Want to grab a spot today?" |
+| **Positive** | Warm and upbeat | "Great question! It's only $39. Happy to send you all the details 😊" |
+| **Direct** | Short and assertive | "$39. Details in DM." |
 
 ---
 
-## Do's and Don'ts
+## Instructions
 
-### Do
+Instructions are plain-language guidance for the agent, up to 4,000 characters. Write them the way you would brief a new team member.
 
-- Provide specific, actionable instructions
-- Include example replies for common scenarios
-- Match the voice to your target audience
-- Update the voice based on what works (check reply engagement)
-- Keep instructions consistent — contradictory rules confuse the AI
+**Instructions that work:**
 
-### Don't
+- "Answer in two sentences at most, then give the product link."
+- "Call our products 'pieces', never 'items'."
+- "Mention free shipping over $50 when someone asks about price."
+- "Never promise a delivery date; give the range from the shipping page."
+- "If you don't know, say a teammate will reply, and stop."
+- "Use formal address (Sie, vous) in German and French."
 
-- Use vague instructions like "be good"
-- Overload with too many conflicting rules
-- Forget to include examples for handling negative comments
-- Set a tone that contradicts your actual brand identity
-- Ignore your voice configuration after initial setup — refine it over time
+**Too vague to help:** "Be nice", "Sound human", "Be helpful".
 
----
+### Add examples
 
-## Advanced Brand Voice Tips
+A few example answers teach the agent your style faster than adjectives. Put them in the instructions, or add them as Q&A in the [knowledge base](knowledge-base.md), which is better for exact answers you want repeated.
 
-### Adapt Voice by Context
-
-Your agent can adjust its tone based on the type of comment:
-
-- **Purchase intent comments** — More direct, action-oriented, include links
-- **Complaints** — Empathetic, solution-focused, offer to take conversation to DMs
-- **Questions** — Informative, helpful, include relevant details from the knowledge base
-- **Positive feedback** — Grateful, warm, encourage sharing or tagging friends
-
-### Personality Traits
-
-Consider defining 3-5 personality traits for your agent:
-
-- "Our brand is **bold**, **honest**, **helpful**, **innovative**, and **fun**."
-- These traits guide the AI when it encounters situations not covered by specific rules.
-
-### Language Considerations
-
-If you serve a multilingual audience, your brand voice applies across all languages. Rypl maintains your tone and style guidelines when generating replies in any language. See [Multi-Language Support](multi-language.md) for more details.
+| Comment | The reply you want |
+|---|---|
+| "Does this come in blue?" | "Yes, in navy and sky blue, both in stock right now." |
+| "Looks cheap" | "Fair question. It's full-grain leather with a 2-year warranty; happy to share more." |
+| "When's the restock?" | "In about two weeks. Message us and we'll let you know when it's back." |
 
 ---
 
-## Testing Your Brand Voice
+## Emojis
 
-After configuring your brand voice:
+**Emojis in replies** is a channel setting: when on, the agent adds an emoji now and then, when it fits.
 
-1. Activate the agent and let it process a few real comments
-2. Review the replies in your dashboard
-3. Check if they match your expectations in tone and style
-4. Adjust guidelines and examples as needed
-5. Repeat until the voice feels right
+---
+
+## Where the agent replies
+
+| Option | What it does |
+|---|---|
+| **Comments and messages** (default) | Replies to comments and to Messenger and Instagram DMs |
+| **Comments only** | Leaves DMs to you |
+| **Messages only** | Leaves comments to you (moderation still runs) |
+
+---
+
+## How soon
+
+| Option | When replies go out |
+|---|---|
+| **Immediately** (default) | Within seconds; 97% of Facebook replies within a minute (RYPL's own measurement) |
+| **Within a few minutes** | After a short delay, so replies feel less instant |
+| **Within an hour** | Up to an hour after the comment |
+| **Within a day** | Up to a day after the comment |
+
+---
+
+## Check the result
+
+1. Save your changes.
+2. Read the next replies in the inbox.
+3. Adjust the instructions, not individual replies, until it sounds right.
+
+**Suggest improvements** on the agent screen also proposes edits to the instructions, based on the questions your customers actually asked.
 
 ---
 
 ## Next Steps
 
-With your brand voice set, the next step is building a comprehensive [Knowledge Base](knowledge-base.md) so your agent has the information it needs to give accurate, helpful replies.
+[Knowledge base](knowledge-base.md).
+
+
+
+## More on rypl.is
+
+- [Why generic auto-replies hurt your brand](https://www.rypl.is/blog/context-aware-replies-explained): what context-aware replies change
+- [How to auto-reply to Facebook comments](https://www.rypl.is/guides/auto-reply-to-facebook-comments): Meta's own options and where AI replies fit
+- [How to auto-reply to Instagram comments](https://www.rypl.is/guides/auto-reply-to-instagram-comments): Instagram's own options and where AI replies fit
 
 ---
 

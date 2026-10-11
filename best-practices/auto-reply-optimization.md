@@ -1,168 +1,77 @@
 ---
 layout: default
-title: Auto-Reply Optimization — Rypl Documentation
-description: How to optimize your Rypl AI auto-replies for higher engagement, accuracy, and conversion through knowledge base and brand voice refinement.
+title: "How to Get Better AI Comment Replies"
+description: "How to make Rypl's AI replies to ad comments accurate and on-brand: knowledge base, instructions, tone, reply rules and weekly improvement."
+last_modified_at: 2026-10-11
 ---
 
-# Auto-Reply Optimization
+# Better AI Replies
 
-Your AI agent's replies are the primary way Rypl drives sales. Every reply is an opportunity to convert a commenter into a customer. This guide covers techniques for making every response count.
-
----
-
-## The Reply Quality Framework
-
-Great AI replies share four qualities:
-
-1. **Accurate** — Information is correct (prices, specs, policies)
-2. **Relevant** — The reply addresses the specific question or comment
-3. **On-brand** — Tone and style match your brand identity
-4. **Action-oriented** — The reply guides the commenter toward a next step (purchase, DM, website visit)
-
-If any of these qualities are missing, there is room for improvement.
+A good reply to an ad comment answers the actual question, in a sentence or two, in your voice, with a next step. Three things decide whether Rypl's replies get there: the knowledge base, the instructions and the rules.
 
 ---
 
-## Knowledge Base Optimization
+## 1. The knowledge base decides accuracy
 
-The single biggest factor in reply quality is the information available to your AI agent. Here is how to optimize your knowledge base:
+The agent can only state facts it has. Most weak replies trace back to a missing or outdated fact.
 
-### Prioritize High-Impact Information
-
-Focus on information that directly impacts sales:
-
-1. **Product pricing** — The most common question on Facebook ads. Make sure your knowledge base has up-to-date prices for every product you advertise.
-2. **Shipping details** — Costs, delivery times, international availability. These are purchase blockers.
-3. **Return policy** — Buyers hesitate when they are unsure about returns. Clear return information reduces friction.
-4. **Size and compatibility** — "Does this fit?", "Is this compatible with...?" are purchase-intent signals.
-5. **Current promotions** — Active discount codes, bundle deals, limited-time offers.
-
-### Structure for Clarity
-
-The AI performs better with well-structured information:
-
-**Good knowledge base entry:**
-```
-Product: Classic Running Shoes
-Price: $89.99
-Sale Price: $69.99 (code RUN20)
-Sizes: 6-13 (US Men's), 7-14 (US Women's)
-Colors: Black, White, Navy Blue, Red
-Shipping: Free over $50, otherwise $5.99
-Delivery: 3-5 business days (US), 7-14 business days (international)
-Returns: 30-day free returns, unworn condition
-```
-
-**Weak knowledge base entry:**
-```
-We sell shoes. They cost around $70-90. We ship everywhere.
-```
-
-### Fill Knowledge Gaps
-
-Monitor your dashboard for questions the AI could not answer well:
-
-1. Review replies where the AI gave generic responses
-2. Identify the missing information
-3. Add it to your knowledge base
-4. The next time a similar question comes in, the reply will be specific and helpful
-
-Common gaps to watch for:
-- Questions about product variants not in the catalog
-- Policy questions not documented in the knowledge base
-- Competitor comparison questions
-- Technical specifications
+- **Start with Q&A** for the 20 to 50 questions you get most, written exactly as you want them answered.
+- **Add prices, variants and offers.** "How much?" is the most common question under ads.
+- **Add shipping and returns**, by country if they differ.
+- **Add your website** for everything else; links in replies point there.
+- **Update the same day** something changes. The knowledge base learns when you save.
 
 ---
 
-## Brand Voice Refinement
+## 2. Instructions decide the style
 
-### Iterative Improvement
+- **Length:** "Two sentences at most for simple questions."
+- **Next step:** "End with the product link when someone asks about a product."
+- **Words:** "Say 'pieces', never 'items'."
+- **Limits:** "Never promise delivery dates." "Never discuss pricing for wholesale; say a teammate will reply."
+- **When unsure:** "If the answer isn't in the knowledge base, say a teammate will reply."
 
-Brand voice optimization is an ongoing process:
-
-1. **Week 1:** Set initial brand voice with basic tone and 5-10 example replies
-2. **Week 2:** Review real AI replies, identify where the tone is off, add more specific guidelines
-3. **Week 3:** Add examples for edge cases (complaints, comparison questions, out-of-stock items)
-4. **Week 4:** Fine-tune based on engagement data — which reply styles get the most positive reactions?
-
-### Specificity Wins
-
-Replace vague instructions with specific ones:
-
-| Instead of... | Write this... |
-|---------------|---------------|
-| "Be friendly" | "Start replies with the commenter's first name. Use a warm greeting." |
-| "Be helpful" | "Always answer the specific question asked. Include a link to the product page." |
-| "Be professional" | "Use complete sentences. Avoid slang and excessive emojis. Maintain a knowledgeable tone." |
-| "Be concise" | "Keep replies under 3 sentences. One idea per sentence." |
-
-### Reply Templates for Common Scenarios
-
-Give your AI agent guidance for the most frequent comment types:
-
-- **Pricing questions** — Include the exact price, any active discounts, and a link to buy
-- **Availability questions** — Confirm availability, mention popular variants, create urgency if appropriate
-- **Shipping questions** — Provide delivery time and cost, mention free shipping thresholds
-- **Negative comments** — Acknowledge the concern, offer a solution, invite them to DMs
-- **Positive comments** — Thank them, encourage sharing, ask for a review
+Pick the **tone** that fits: Neutral, Seller, Positive or Direct. Most consumer brands do well with Neutral or Positive; Seller works for promotions; Direct suits brands with a clipped voice.
 
 ---
 
-## Measuring Reply Quality
+## 3. Rules decide what gets a reply (Pro and Ultra)
 
-### Key Metrics
-
-- **Reply engagement rate** — How often do commenters respond positively to AI replies?
-- **Click-through rate** — When replies include links, how often are they clicked?
-- **Escalation rate** — How often does a conversation need human intervention?
-- **Conversion rate** — What percentage of replied-to comments lead to a purchase?
-
-### Spot-Check Process
-
-Spend 10 minutes daily reviewing AI replies:
-
-1. Open your Rypl dashboard
-2. Sort replies by most recent
-3. Read 10-15 replies across different comment types
-4. Rate each reply: Excellent / Good / Needs improvement
-5. Note patterns in "Needs improvement" replies
-6. Update knowledge base or brand voice to address the patterns
-
-### A/B Testing Brand Voice
-
-If you manage multiple Pages or run similar campaigns, test different brand voice configurations:
-
-- Try a more casual voice on one Page and professional on another
-- Compare engagement rates and conversion metrics
-- Adopt the higher-performing voice across your accounts
+- Add **My text** replies for questions asked word for word again and again, so they're answered the same way every time.
+- Turn on **thank-you replies** to answer praise.
+- Use **Don't reply** for topics a person should handle in private.
+- Turn on **Read the post** so "how much is this?" gets the price of the product in the ad.
+- On Ultra, **Remember the conversation** lets the agent pick up where an earlier conversation with the same person left off.
 
 ---
 
-## Advanced Techniques
+## 4. Improve it every week
 
-### Seasonal Updates
-
-Update your knowledge base for seasonal campaigns:
-
-- Holiday shipping deadlines
-- Seasonal product availability
-- Limited-time promotional offers
-- Gift-giving suggestions and bundles
-
-### Post Content Analysis (Pro and Ultra)
-
-Rypl's post content analysis reads your actual ad creative and copy, giving the AI additional context for replies. This means the agent can reference specific claims, images, or offers from the ad itself.
-
-### Conversational Memory (Ultra)
-
-On the Ultra plan, your agent maintains full conversational memory. This means it remembers previous interactions with the same commenter, creating a more personal and coherent experience.
+1. Read a sample of replies in the inbox: are the facts right, is the tone right, is there a next step?
+2. Run **Suggest improvements** on the agent. It reads the questions customers really asked, answered and unanswered, and proposes Q&A and instruction edits, leaving gaps in [brackets] where only you know the answer.
+3. Check the suggestions above the agent's settings: unanswered complaints, repeated questions and emoji reactions your rules don't cover.
+4. Fix the source (knowledge base or instructions), never just the one reply.
 
 ---
 
-## Next Steps
+## Signs something needs fixing
 
-Apply these optimization techniques alongside the [ROAS Improvement Playbook](roas-improvement.md) for maximum business impact.
+| What you see | Likely cause | Fix |
+|---|---|---|
+| "Check our website" instead of an answer | Fact missing | Add it as Q&A |
+| Wrong price | Outdated document | Update or remove it |
+| Too long | No length instruction | Add one |
+| Wrong product | The post wasn't read | Turn on **Read the post** (Pro and Ultra) |
+| Wrong formality in German or French | No instruction | Say *du/Sie*, *tu/vous* |
+| Same reply on every emoji | Broad rule | Add several **My text** variants or narrow the rule |
+
+
+## More on rypl.is
+
+- [Why generic auto-replies hurt your brand](https://www.rypl.is/blog/context-aware-replies-explained): what context-aware replies change
+- [AI vs rule-based comment automation](https://www.rypl.is/blog/ai-vs-rule-based-comment-automation): what actually works on Facebook
+- [How to auto-reply to Facebook comments](https://www.rypl.is/guides/auto-reply-to-facebook-comments): Meta's own options and where AI replies fit
+- [How to auto-reply to Instagram comments](https://www.rypl.is/guides/auto-reply-to-instagram-comments): Instagram's own options and where AI replies fit
 
 ---
 

@@ -1,103 +1,82 @@
 ---
 layout: default
-title: Connect Your Facebook Page — Rypl Documentation
-description: How to securely connect your Facebook Page to Rypl using Meta's Official Graph API for automated ad comment management.
+title: "Connect Facebook, Instagram and TikTok"
+description: "How to connect Facebook Pages, Instagram accounts and TikTok ad accounts to Rypl through the official Meta and TikTok APIs."
+last_modified_at: 2026-10-11
 ---
 
-# Connect Your Facebook Page
+# Connect Your Channels
 
-Rypl connects to your Facebook Page through **Meta's Official Graph API**, the same API that powers Meta's own tools. This means full compliance with Meta's policies and zero risk of account bans or restrictions.
-
----
-
-## Prerequisites
-
-Before connecting, make sure you have:
-
-- **Admin access** to the Facebook Page you want to manage
-- **An active Rypl account** ([sign up here](sign-up.md) if you have not yet)
-- **A modern web browser** (Chrome, Firefox, Safari, or Edge)
+A **channel** in Rypl is a Facebook Page (together with the Instagram account linked to it) or a TikTok ad account. Rypl connects to them through the official Meta Graph API and TikTok Marketing API: you sign in with Meta or TikTok and choose what Rypl may handle. Rypl never sees your password, and there is no scraping or browser automation.
 
 ---
 
-## Connection Process
+## Facebook
 
-### Step 1: Initiate the Connection
+1. In Rypl, open **Channels** and click **Connect Facebook**.
+2. Choose how to connect:
+   - **Business profile**: through your Meta Business portfolio. A stable connection that doesn't need re-login. The better choice for agencies and businesses that manage Pages in a portfolio.
+   - **Personal profile**: with the Facebook profile that manages the Page.
+3. Sign in to Facebook and allow the permissions Rypl asks for. They let Rypl read and reply to comments and messages on your Pages and hide or delete comments.
+4. Select the Pages Rypl should handle.
 
-From your Rypl dashboard, click **"Connect Facebook Page"** (or the equivalent button in your account setup flow). This will redirect you to Facebook's login screen.
-
-### Step 2: Authenticate with Facebook
-
-Log in to the Facebook account that has admin access to your Page. If you are already logged in, Facebook will ask you to confirm your identity.
-
-### Step 3: Grant Permissions
-
-Facebook will present a list of permissions that Rypl needs. These permissions allow Rypl to:
-
-- **Read comments** on your Page's posts and ads
-- **Reply to comments** on your behalf
-- **Manage messages** in your Page inbox (for DM auto-replies)
-- **Read Page content** to understand post context for AI replies
-- **Moderate comments** (hide spam and negative comments)
-
-All permissions are scoped to the specific Pages you select. Rypl cannot access your personal Facebook profile, friends list, or any information outside of the Pages you authorize.
-
-### Step 4: Select Your Pages
-
-If your Facebook account manages multiple Pages, you will see a list of all available Pages. Select the ones you want Rypl to manage. You can always add or remove Pages later.
-
-The number of Pages you can connect depends on your plan:
-
-| Plan | Pages |
-|------|-------|
-| Simple | Up to 3 |
-| Pro | Up to 20 |
-| Ultra | Unlimited |
-
-### Step 5: Confirm and Return
-
-After selecting your Pages and confirming permissions, you will be redirected back to the Rypl dashboard. Your connected Pages will appear in your account, ready for agent configuration.
+You need admin access to the Page. If a Page doesn't appear, see [Facebook connection troubleshooting](../troubleshooting/facebook-connection.md).
 
 ---
 
-## Security and Compliance
+## Instagram
 
-### Meta Official Graph API
+Instagram accounts connect through the Facebook Page they are linked to. When you connect a Page, its Instagram professional account comes with it, and Rypl handles comments on its ads and posts and its Direct messages.
 
-Rypl is built entirely on Meta's Official Graph API. This is the sanctioned way to interact with Facebook Pages programmatically. Unlike unofficial tools that scrape or use browser automation:
-
-- **No Terms of Service violations** — Rypl operates within Meta's approved API framework
-- **No ban risk** — Your Page will never be flagged or restricted for using Rypl
-- **Encrypted connections** — All data is transmitted over HTTPS
-- **Token-based access** — Rypl stores secure API tokens, never your Facebook password
-
-### Data Privacy
-
-- Rypl only accesses data on the Pages you explicitly authorize
-- Comment data is processed for AI replies and moderation, then stored securely
-- You can revoke access at any time from both Rypl and Facebook's settings
+If the Instagram account doesn't show up, check that it is a professional (business or creator) account and that it is linked to the Page in Meta Business Suite, then reconnect in Rypl.
 
 ---
 
-## Managing Connected Pages
+## TikTok
 
-After the initial connection, you can manage your Pages from the Rypl dashboard:
+1. In **Channels**, click **Connect TikTok**.
+2. Sign in to TikTok for Business and authorize Rypl for your ad account.
+3. Choose the ad accounts Rypl should handle.
 
-- **Add more Pages** — Repeat the connection process to link additional Pages
-- **Remove a Page** — Disconnect a Page to stop Rypl from managing its comments
-- **Reconnect** — If a token expires or permissions change, you can re-authenticate to restore the connection
+Rypl handles comments on **TikTok ads**. Organic TikTok posts are not supported. TikTok doesn't allow deleting other people's comments, so on TikTok Rypl hides them instead.
 
 ---
 
-## Troubleshooting
+## Plan limits
 
-If you run into issues during the connection process, check the [Facebook Connection Troubleshooting](../troubleshooting/facebook-connection.md) guide for solutions to common problems.
+| | Simple | Pro | Ultra |
+|---|---|---|---|
+| Accounts | 1 | Up to 5 | Unlimited |
+| Pages | Up to 3 | Up to 20 | Unlimited |
+
+An Instagram account linked to a connected Page doesn't count as an extra page.
+
+---
+
+## Managing channels
+
+From **Channels** you can:
+
+- open a channel's settings: **AI replies**, **Moderation** and more;
+- connect more Pages, Instagram accounts and TikTok ad accounts;
+- reconnect an account if Facebook or TikTok asks you to sign in again;
+- disconnect a channel so Rypl stops handling it.
 
 ---
 
 ## Next Steps
 
-With your Facebook Page connected, you are ready to [Create an AI Agent](create-ai-agent.md) to start managing comments.
+[Set up your AI agent](create-ai-agent.md).
+
+
+
+## More on rypl.is
+
+- [Facebook comment moderation tool](https://www.rypl.is/facebook-comment-moderation-tool): how Rypl answers and moderates comments on Facebook ads and posts
+- [Instagram comment moderation tool](https://www.rypl.is/instagram-comment-moderation-tool): AI replies and moderation for Instagram ads, posts and DMs
+- [TikTok ad comment moderation tool](https://www.rypl.is/tiktok-comment-moderation-tool): replies and moderation for comments on TikTok ads
+- [Instagram ad comment automation guide](https://www.rypl.is/blog/instagram-ad-comment-automation-guide): permissions, Reels and DMs
+- [How to manage comments on TikTok ads](https://www.rypl.is/blog/how-to-manage-tiktok-ad-comments): the complete guide
 
 ---
 

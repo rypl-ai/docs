@@ -23,8 +23,9 @@
           <img src="{{ '/assets/logo.svg' | relative_url }}" alt="Rypl" width="48" height="48">
         </a>
       </div>
-      <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
-      <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
+      <p class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</p>
+      <p class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</p>
+      {% if page.last_modified_at %}<p class="project-updated">Updated <time datetime="{{ page.last_modified_at | date_to_xmlschema }}">{{ page.last_modified_at | date: "%B %-d, %Y" }}</time></p>{% endif %}
       <div class="header-actions">
         <a href="https://www.rypl.is" class="btn">Visit rypl.is</a>
         <a href="https://app.rypl.is/signup" class="btn btn-primary">Start Free Trial</a>
@@ -36,12 +37,13 @@
 
       <footer class="site-footer">
         <span class="site-footer-owner">
-          <a href="https://www.rypl.is">Rypl</a> — AI-powered Facebook ad comment management.
+          <a href="https://www.rypl.is">Rypl</a>: AI replies and moderation for Facebook, Instagram and TikTok ad comments.
         </span>
         <span class="site-footer-credits">
           <a href="https://github.com/rypl-ai/docs">View on GitHub</a> ·
           <a href="https://www.rypl.is">Website</a> ·
-          <a href="https://blog.rypl.is">Blog</a>
+          <a href="https://www.rypl.is/guides">Guides</a> ·
+          <a href="https://www.rypl.is/blog">Blog</a>
         </span>
       </footer>
     </main>
