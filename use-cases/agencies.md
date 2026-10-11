@@ -1,7 +1,8 @@
 ---
 layout: default
-title: Marketing Agencies — Rypl Documentation
-description: How agencies use Rypl to answer and moderate comments on clients' Facebook, Instagram and TikTok ads, with one agent and knowledge base per client.
+title: "Ad Comment Management for Agencies"
+description: "How agencies use Rypl to answer and moderate comments on clients' Facebook, Instagram and TikTok ads, with one agent and knowledge base per client."
+last_modified_at: 2026-10-11
 ---
 
 # Marketing Agencies
@@ -67,6 +68,13 @@ There is no comment limit on any plan, so a client's viral ad doesn't change the
 - [Multiple accounts and pages](../configuration/multi-account.md)
 - [Moderation](../configuration/moderation-rules.md)
 - [Pricing](../reference/pricing.md)
+
+
+## More on rypl.is
+
+- [Managing multiple Facebook Pages with AI: a guide for agencies](https://www.rypl.is/blog/facebook-automation-for-agencies): one agent per client
+- [Rypl vs the alternatives](https://www.rypl.is/compare): ReplyZen, ManyChat, NapoleonCat and Agorapulse compared, with sources
+- [Rypl pricing](https://www.rypl.is/pricing): plans from $19 a month, no comment limit, 7-day free trial
 
 ---
 

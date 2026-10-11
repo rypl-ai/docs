@@ -1,7 +1,8 @@
 ---
 layout: default
-title: Languages — Rypl Documentation
-description: Rypl replies to Facebook, Instagram and TikTok ad comments in the language each comment is written in, or in a language you choose.
+title: "Multilingual Comment Replies"
+description: "Rypl replies to Facebook, Instagram and TikTok ad comments in the language each comment is written in, or in a language you choose."
+last_modified_at: 2026-10-11
 ---
 
 # Languages
@@ -50,6 +51,13 @@ The agent uses your knowledge base whatever language the comment is in, so you d
 ## Next Steps
 
 [Inbox and Needs attention](inbox.md).
+
+
+## More on rypl.is
+
+- [Ad comment statistics 2026](https://www.rypl.is/blog/ad-comment-statistics-2026): what people write under ads, RYPL data for Q3 2026
+- [Facebook comment moderation tool](https://www.rypl.is/facebook-comment-moderation-tool): how Rypl answers and moderates comments on Facebook ads and posts
+- [Instagram comment moderation tool](https://www.rypl.is/instagram-comment-moderation-tool): AI replies and moderation for Instagram ads, posts and DMs
 
 ---
 

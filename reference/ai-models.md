@@ -1,7 +1,8 @@
 ---
 layout: default
-title: AI Models — Rypl Documentation
-description: Which AI models power Rypl's replies and moderation, how they differ by plan, and why plans aren't tied to model names.
+title: "AI Models Behind Rypl"
+description: "Which AI models power Rypl's replies and moderation, how they differ by plan, and why plans aren't tied to model names."
+last_modified_at: 2026-10-11
 ---
 
 # AI Models
@@ -40,6 +41,12 @@ Answers are only as good as the facts in your knowledge base. Keep prices, stock
 - [Pricing](pricing.md): what each plan includes
 - [Knowledge base](../configuration/knowledge-base.md): give the AI the facts it answers from
 - [Sign up](https://app.rypl.is/signup): start a 7-day free trial
+
+
+## More on rypl.is
+
+- [Why generic auto-replies hurt your brand](https://www.rypl.is/blog/context-aware-replies-explained): what context-aware replies change
+- [AI vs rule-based comment automation](https://www.rypl.is/blog/ai-vs-rule-based-comment-automation): what actually works on Facebook
 
 ---
 

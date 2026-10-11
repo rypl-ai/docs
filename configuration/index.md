@@ -1,7 +1,8 @@
 ---
 layout: default
-title: Configuration — Rypl Documentation
-description: Every Rypl setting: agents and brand voice, knowledge base, moderation, reply rules, intent detection, languages, the inbox and multiple accounts.
+title: "Rypl Settings and Configuration"
+description: "Every Rypl setting: agents and brand voice, knowledge base, moderation, reply rules, intent detection, languages, the inbox and multiple accounts."
+last_modified_at: 2026-10-11
 ---
 
 # Configuration
@@ -59,6 +60,14 @@ Several brands or clients in one Rypl account.
 | Accounts / pages | 1 / 3 | 5 / 20 | Unlimited |
 
 If you move to a lower plan, your rules stay saved; they start working again when you upgrade.
+
+
+
+## More on rypl.is
+
+- [Comment management guides](https://www.rypl.is/guides): hide, turn off and auto-reply to comments on Facebook, Instagram and TikTok ads
+- [Ad comment glossary](https://www.rypl.is/glossary): dark posts, hidden comments, Moderation Assist and other terms
+- [Facebook comment moderation tool](https://www.rypl.is/facebook-comment-moderation-tool): how Rypl answers and moderates comments on Facebook ads and posts
 
 ---
 

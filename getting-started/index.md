@@ -1,7 +1,8 @@
 ---
 layout: default
-title: Getting Started — Rypl Documentation
-description: Set up Rypl in minutes: create an account, connect Facebook, Instagram and TikTok, set up an AI agent and go live.
+title: "Getting Started with Rypl"
+description: "Set up Rypl in minutes: create an account, connect Facebook, Instagram and TikTok, set up an AI agent and go live."
+last_modified_at: 2026-10-11
 ---
 
 # Getting Started with Rypl
@@ -40,6 +41,15 @@ Switch on **Reply with AI** for your channels, then read the first replies and h
 - **Spam and hate** are hidden automatically. Spam is flagged in about 1.7 seconds on average and hidden within seconds (RYPL's own measurement).
 - **Every comment is labelled** with what it wants: a question, a purchase, a complaint and so on.
 - **Complaints and rule matches** wait for you in **Needs attention**.
+
+
+
+## More on rypl.is
+
+- [Facebook comment moderation tool](https://www.rypl.is/facebook-comment-moderation-tool): how Rypl answers and moderates comments on Facebook ads and posts
+- [Instagram comment moderation tool](https://www.rypl.is/instagram-comment-moderation-tool): AI replies and moderation for Instagram ads, posts and DMs
+- [TikTok ad comment moderation tool](https://www.rypl.is/tiktok-comment-moderation-tool): replies and moderation for comments on TikTok ads
+- [How to auto-reply to Facebook comments](https://www.rypl.is/guides/auto-reply-to-facebook-comments): Meta's own options and where AI replies fit
 
 ---
 

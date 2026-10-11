@@ -1,7 +1,8 @@
 ---
 layout: default
-title: Multiple Accounts and Pages — Rypl Documentation
-description: Run several brands or clients in one Rypl account: accounts and pages per plan, one agent per brand, global and per-channel moderation.
+title: "Multiple Pages, Brands and Clients"
+description: "Run several brands or clients in one Rypl account: accounts and pages per plan, one agent per brand, global and per-channel moderation."
+last_modified_at: 2026-10-11
 ---
 
 # Multiple Accounts and Pages
@@ -59,6 +60,13 @@ Create an agent for each brand or client, with its own instructions, tone and kn
 
 - [Agencies use case](../use-cases/agencies.md)
 - [Pricing](../reference/pricing.md)
+
+
+## More on rypl.is
+
+- [Managing multiple Facebook Pages with AI: a guide for agencies](https://www.rypl.is/blog/facebook-automation-for-agencies): one agent per client
+- [Rypl pricing](https://www.rypl.is/pricing): plans from $19 a month, no comment limit, 7-day free trial
+- [Rypl vs the alternatives](https://www.rypl.is/compare): ReplyZen, ManyChat, NapoleonCat and Agorapulse compared, with sources
 
 ---
 

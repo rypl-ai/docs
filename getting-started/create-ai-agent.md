@@ -1,7 +1,8 @@
 ---
 layout: default
-title: Create an AI Agent — Rypl Documentation
-description: Set up a Rypl AI agent that replies to comments and DMs: instructions, tone, knowledge base, where it replies and how soon.
+title: "Create an AI Agent for Comments"
+description: "Set up a Rypl AI agent that replies to comments and DMs: instructions, tone, knowledge base, where it replies and how soon."
+last_modified_at: 2026-10-11
 ---
 
 # Create an AI Agent
@@ -78,6 +79,15 @@ In each channel's **AI replies** settings, switch on **Reply with AI** and choos
 ## Next Steps
 
 [Go live](go-live.md).
+
+
+
+## More on rypl.is
+
+- [How to auto-reply to Facebook comments](https://www.rypl.is/guides/auto-reply-to-facebook-comments): Meta's own options and where AI replies fit
+- [How to auto-reply to Instagram comments](https://www.rypl.is/guides/auto-reply-to-instagram-comments): Instagram's own options and where AI replies fit
+- [How to auto-reply to TikTok ad comments](https://www.rypl.is/guides/auto-reply-to-tiktok-ad-comments): what TikTok allows for ad comments
+- [Why generic auto-replies hurt your brand](https://www.rypl.is/blog/context-aware-replies-explained): what context-aware replies change
 
 ---
 

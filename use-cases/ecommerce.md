@@ -1,7 +1,8 @@
 ---
 layout: default
-title: E-Commerce — Rypl Documentation
-description: How online stores use Rypl to answer price, stock and shipping questions under Facebook, Instagram and TikTok ads, and hide scams and spam.
+title: "AI Comment Replies for E-Commerce Ads"
+description: "How online stores use Rypl to answer price, stock and shipping questions under Facebook, Instagram and TikTok ads, and hide scams and spam."
+last_modified_at: 2026-10-11
 ---
 
 # E-Commerce
@@ -76,6 +77,14 @@ Comments on TikTok ads go through the same agent and knowledge base. TikTok does
 - [Knowledge Base](../configuration/knowledge-base.md)
 - [Moderation](../configuration/moderation-rules.md)
 - [Reply Rules](../configuration/reply-rules.md)
+
+
+## More on rypl.is
+
+- [How to stop losing sales in Facebook comments](https://www.rypl.is/blog/ecommerce-facebook-comment-automation): a guide for e-commerce brands
+- [How to detect buying intent in ad comments](https://www.rypl.is/blog/detect-buying-intent-ad-comments): the questions that signal a buyer
+- [Facebook comment moderation tool](https://www.rypl.is/facebook-comment-moderation-tool): how Rypl answers and moderates comments on Facebook ads and posts
+- [Instagram comment moderation tool](https://www.rypl.is/instagram-comment-moderation-tool): AI replies and moderation for Instagram ads, posts and DMs
 
 ---
 

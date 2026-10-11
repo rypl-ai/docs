@@ -1,7 +1,8 @@
 ---
 layout: default
-title: Rypl Documentation
-description: Official documentation for Rypl, the AI tool that replies to and moderates comments and DMs on Facebook and Instagram, plus comments on TikTok ads.
+title: "Rypl Docs"
+description: "Official documentation for Rypl, the AI tool that replies to and moderates comments and DMs on Facebook and Instagram, plus comments on TikTok ads."
+last_modified_at: 2026-10-11
 ---
 
 # Rypl Documentation
@@ -54,6 +55,7 @@ Connection problems, an agent that isn't replying, and billing questions.
 ### [Changelog](changelog.md)
 What changed and when.
 
+
 ---
 
 ## Key facts
@@ -67,11 +69,17 @@ What changed and when.
 | **Comment limit** | None, on any plan |
 | **Connection** | Official Meta Graph API and TikTok Marketing API |
 
----
 
-## More from Rypl
+## More on rypl.is
 
-- **[Guides](https://www.rypl.is/guides)**: how to hide, turn off and auto-reply to comments on Facebook, Instagram and TikTok ads
-- **[Ad comment glossary](https://www.rypl.is/glossary)**
-- **[Blog](https://www.rypl.is/blog)**
-- **[App](https://app.rypl.is)** · **Contact:** [hey@rypl.is](mailto:hey@rypl.is)
+- [Facebook comment moderation tool](https://www.rypl.is/facebook-comment-moderation-tool): how Rypl answers and moderates comments on Facebook ads and posts
+- [Instagram comment moderation tool](https://www.rypl.is/instagram-comment-moderation-tool): AI replies and moderation for Instagram ads, posts and DMs
+- [TikTok ad comment moderation tool](https://www.rypl.is/tiktok-comment-moderation-tool): replies and moderation for comments on TikTok ads
+- [Rypl pricing](https://www.rypl.is/pricing): plans from $19 a month, no comment limit, 7-day free trial
+- [Rypl vs the alternatives](https://www.rypl.is/compare): ReplyZen, ManyChat, NapoleonCat and Agorapulse compared, with sources
+- [Ad comment statistics 2026](https://www.rypl.is/blog/ad-comment-statistics-2026): what people write under ads, RYPL data for Q3 2026
+- [Comment management guides](https://www.rypl.is/guides): hide, turn off and auto-reply to comments on Facebook, Instagram and TikTok ads
+- [Ad comment glossary](https://www.rypl.is/glossary): dark posts, hidden comments, Moderation Assist and other terms
+- [Rypl blog](https://www.rypl.is/blog): guides, benchmarks and product updates
+
+**[Start a 7-day free trial](https://app.rypl.is/signup)** · Contact: [hey@rypl.is](mailto:hey@rypl.is)

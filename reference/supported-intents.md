@@ -1,7 +1,8 @@
 ---
 layout: default
-title: Supported Intents — Rypl Documentation
-description: The intent labels Rypl puts on every comment and message (Question, Purchase, Request, Complaint, Feedback, Sharing, Spam, User-to-user, Other), with examples.
+title: "Supported Intents: Comment Labels"
+description: "The intent labels Rypl puts on every comment and message: Question, Purchase, Request, Complaint, Feedback, Sharing, Spam and more, with examples."
+last_modified_at: 2026-10-11
 ---
 
 # Supported Intents
@@ -41,6 +42,13 @@ When a comment both asks you to act and something else, **Request** wins: "This 
 ## What people write under ads
 
 In [RYPL's Q3 2026 data](https://www.rypl.is/blog/ad-comment-statistics-2026), 40% of the comments RYPL's AI analyzed on advertisers' Facebook and Instagram ads and posts were questions, 38% showed buying intent (mostly questions about the product), and only 2% said outright that the person wanted to buy. Buying intent mostly arrives as a Question, not a Purchase.
+
+
+## More on rypl.is
+
+- [How to detect buying intent in ad comments](https://www.rypl.is/blog/detect-buying-intent-ad-comments): the questions that signal a buyer
+- [Ad comment statistics 2026](https://www.rypl.is/blog/ad-comment-statistics-2026): what people write under ads, RYPL data for Q3 2026
+- [Ad comment glossary](https://www.rypl.is/glossary): dark posts, hidden comments, Moderation Assist and other terms
 
 ---
 

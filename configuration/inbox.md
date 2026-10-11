@@ -1,7 +1,8 @@
 ---
 layout: default
-title: Inbox and Needs Attention — Rypl Documentation
-description: Rypl's inbox shows every comment, DM, AI reply and hidden comment from Facebook, Instagram and TikTok in one place, with a Needs attention queue for what needs a person.
+title: "Inbox and Needs Attention"
+description: "Rypl's inbox shows every comment, DM, AI reply and hidden comment from Facebook, Instagram and TikTok, plus a Needs attention queue."
+last_modified_at: 2026-10-11
 ---
 
 # Inbox and Needs Attention
@@ -64,6 +65,13 @@ Meta allows replies to a Facebook or Instagram DM only within 7 days of the pers
 ## Dashboard
 
 The dashboard summarises the same activity: comments and messages handled, replies sent, the share of positive, neutral and negative comments, what each agent did while you were away, and the Needs attention count.
+
+
+## More on rypl.is
+
+- [How to see and reply to comments on Facebook ads](https://www.rypl.is/blog/how-to-see-comments-on-facebook-ads): find every ad comment, dark posts included
+- [How to respond to negative comments on Facebook](https://www.rypl.is/guides/respond-to-negative-comments-on-facebook): when to answer, hide or escalate
+- [How to respond to negative comments on Instagram](https://www.rypl.is/guides/respond-to-negative-comments-on-instagram): when to answer, hide or escalate
 
 ---
 

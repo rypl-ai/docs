@@ -1,7 +1,8 @@
 ---
 layout: default
-title: Pricing — Rypl Documentation
-description: Rypl pricing: Simple $19, Pro $49 and Ultra $89 per month, flat, with no comment limit and a 7-day free trial on every plan.
+title: "Rypl Pricing and Plans"
+description: "Rypl pricing: Simple $19, Pro $49 and Ultra $89 per month, flat, with no comment limit and a 7-day free trial on every plan."
+last_modified_at: 2026-10-11
 ---
 
 # Pricing
@@ -81,6 +82,13 @@ Rypl runs on the latest OpenAI models and upgrades them automatically on every p
 - Customers in the EU can withdraw from a contract through the [withdrawal form](https://www.rypl.is/withdrawal).
 
 See [Billing troubleshooting](../troubleshooting/billing.md) for payment questions, and the full pricing page at [rypl.is/pricing](https://www.rypl.is/pricing).
+
+
+## More on rypl.is
+
+- [Rypl pricing](https://www.rypl.is/pricing): plans from $19 a month, no comment limit, 7-day free trial
+- [Rypl vs the alternatives](https://www.rypl.is/compare): ReplyZen, ManyChat, NapoleonCat and Agorapulse compared, with sources
+- [The 6 best Facebook and Instagram ad comment automation tools](https://www.rypl.is/blog/best-facebook-instagram-comment-automation-tools): a sourced comparison
 
 ---
 

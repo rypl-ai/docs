@@ -1,7 +1,14 @@
-title: Rypl Documentation
+title: Rypl Docs
+tagline: AI Replies for Facebook, Instagram and TikTok
 description: Official documentation for Rypl, AI replies and moderation for Facebook, Instagram and TikTok ad comments
 url: https://rypl-ai.github.io
+baseurl: /docs
+lang: en-US
+logo: https://www.rypl.is/images/brand/rypl-logo-512.png
 theme: jekyll-theme-cayman
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
+# README.md is the repository's landing page on GitHub; index.md is the site's.
+exclude:
+  - README.md

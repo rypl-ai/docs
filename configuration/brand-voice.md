@@ -1,7 +1,8 @@
 ---
 layout: default
-title: Brand Voice and Instructions — Rypl Documentation
-description: Make Rypl's AI replies sound like your brand: tone, instructions, examples, emojis, where the agent replies and how soon.
+title: "Brand Voice and Reply Instructions"
+description: "Make Rypl's AI replies sound like your brand: tone, instructions, examples, emojis, where the agent replies and how soon."
+last_modified_at: 2026-10-11
 ---
 
 # Brand Voice and Instructions
@@ -88,6 +89,14 @@ A few example answers teach the agent your style faster than adjectives. Put the
 ## Next Steps
 
 [Knowledge base](knowledge-base.md).
+
+
+
+## More on rypl.is
+
+- [Why generic auto-replies hurt your brand](https://www.rypl.is/blog/context-aware-replies-explained): what context-aware replies change
+- [How to auto-reply to Facebook comments](https://www.rypl.is/guides/auto-reply-to-facebook-comments): Meta's own options and where AI replies fit
+- [How to auto-reply to Instagram comments](https://www.rypl.is/guides/auto-reply-to-instagram-comments): Instagram's own options and where AI replies fit
 
 ---
 

@@ -1,7 +1,8 @@
 ---
 layout: default
-title: Knowledge Base — Rypl Documentation
-description: Give Rypl's AI agent the facts it answers from: your website, Q&A and documents. On every plan.
+title: "Knowledge Base for AI Replies"
+description: "Give Rypl's AI agent the facts it answers from: your website, Q&A and documents. On every plan."
+last_modified_at: 2026-10-11
 ---
 
 # Knowledge Base
@@ -60,6 +61,14 @@ On the agent screen, **Suggest improvements** reads the questions real customers
 ## Next Steps
 
 [Moderation](moderation-rules.md).
+
+
+
+## More on rypl.is
+
+- [Why generic auto-replies hurt your brand](https://www.rypl.is/blog/context-aware-replies-explained): what context-aware replies change
+- [How to stop losing sales in Facebook comments](https://www.rypl.is/blog/ecommerce-facebook-comment-automation): a guide for e-commerce brands
+- [How to detect buying intent in ad comments](https://www.rypl.is/blog/detect-buying-intent-ad-comments): the questions that signal a buyer
 
 ---
 

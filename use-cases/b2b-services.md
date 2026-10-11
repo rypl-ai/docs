@@ -1,7 +1,8 @@
 ---
 layout: default
-title: B2B and Services — Rypl Documentation
-description: How service businesses and B2B companies use Rypl to answer questions under lead-generation ads and send qualified leads to a person.
+title: "AI Comment Replies for B2B and Services"
+description: "How service businesses and B2B companies use Rypl to answer questions under lead-generation ads and send qualified leads to a person."
+last_modified_at: 2026-10-11
 ---
 
 # B2B and Services
@@ -60,6 +61,13 @@ Agents answer Messenger and Instagram Direct messages as well as comments. Meta 
 - [Create an AI agent](../getting-started/create-ai-agent.md)
 - [Reply Rules](../configuration/reply-rules.md)
 - [Inbox and Needs attention](../configuration/inbox.md)
+
+
+## More on rypl.is
+
+- [Facebook lead leakage](https://www.rypl.is/blog/facebook-lead-leakage-how-ai-stops-it): why sales are lost in the comments
+- [Why comment response time affects ad performance](https://www.rypl.is/blog/comment-response-time-ad-performance): the case for answering fast
+- [Facebook comment moderation tool](https://www.rypl.is/facebook-comment-moderation-tool): how Rypl answers and moderates comments on Facebook ads and posts
 
 ---
 

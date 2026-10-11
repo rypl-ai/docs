@@ -1,7 +1,8 @@
 ---
 layout: default
-title: Reply Rules — Rypl Documentation
-description: Reply rules in Rypl decide what happens to a kind of comment: the AI agent answers, a ready reply goes out, or the comment is skipped. Pro and Ultra.
+title: "Reply Rules for AI Comment Replies"
+description: "Reply rules in Rypl decide what happens to a kind of comment: the AI agent answers, a ready reply goes out, or the comment is skipped. Pro and Ultra."
+last_modified_at: 2026-10-11
 ---
 
 # Reply Rules
@@ -71,6 +72,14 @@ The rule editor shows how a rule would treat your recent comments (**On your rec
 ## Next Steps
 
 [Intent detection](intent-detection.md).
+
+
+## More on rypl.is
+
+- [How to auto-reply to Facebook comments](https://www.rypl.is/guides/auto-reply-to-facebook-comments): Meta's own options and where AI replies fit
+- [How to auto-reply to Instagram comments](https://www.rypl.is/guides/auto-reply-to-instagram-comments): Instagram's own options and where AI replies fit
+- [How to auto-reply to TikTok ad comments](https://www.rypl.is/guides/auto-reply-to-tiktok-ad-comments): what TikTok allows for ad comments
+- [How to detect buying intent in ad comments](https://www.rypl.is/blog/detect-buying-intent-ad-comments): the questions that signal a buyer
 
 ---
 

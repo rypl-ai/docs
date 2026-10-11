@@ -69,6 +69,13 @@
     border-color: #402bab !important;
   }
 
+  .project-updated {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: 'Inter', 'Open Sans', sans-serif;
+    font-size: 0.85rem;
+    margin: 0.5rem 0 0;
+  }
+
   /* ─── Body and content ─── */
   body {
     font-family: 'Inter', 'Open Sans', sans-serif;
@@ -127,3 +134,52 @@
     }
   }
 </style>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://www.rypl.is/#organization",
+  "name": "Rypl",
+  "alternateName": ["RYPL", "Rypl AI"],
+  "url": "https://www.rypl.is",
+  "logo": "https://www.rypl.is/images/brand/rypl-logo-512.png",
+  "description": "AI replies and moderation for comments and DMs on Facebook and Instagram, plus comments on TikTok ads.",
+  "sameAs": [
+    "https://www.linkedin.com/company/ryplis",
+    "https://www.youtube.com/@ryplis",
+    "https://www.producthunt.com/products/rypl",
+    "https://github.com/rypl-ai"
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "TechArticle",
+  "headline": {{ page.title | default: site.title | jsonify }},
+  "description": {{ page.description | default: site.description | jsonify }},
+  "url": {{ page.url | absolute_url | jsonify }},
+  "inLanguage": "en",
+  {% if page.last_modified_at %}"dateModified": {{ page.last_modified_at | date_to_xmlschema | jsonify }},{% endif %}
+  "about": {"@type": "SoftwareApplication", "name": "Rypl", "applicationCategory": "BusinessApplication", "operatingSystem": "Web", "url": "https://www.rypl.is"},
+  "author": {"@id": "https://www.rypl.is/#organization"},
+  "publisher": {"@id": "https://www.rypl.is/#organization"}
+}
+</script>
+{% if page.faq %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {% for section in page.faq %}{% for item in section.questions %}{
+      "@type": "Question",
+      "name": {{ item.q | jsonify }},
+      "acceptedAnswer": {"@type": "Answer", "text": {{ item.a | markdownify | strip_html | normalize_whitespace | strip | jsonify }}}
+    }{% unless forloop.last %},{% endunless %}{% endfor %}{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ]
+}
+</script>
+{% endif %}

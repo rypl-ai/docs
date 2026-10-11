@@ -1,7 +1,8 @@
 ---
 layout: default
-title: Troubleshooting — Rypl Documentation
-description: Fix common Rypl problems: connecting Facebook, Instagram and TikTok, an agent that isn't replying, and billing.
+title: "Rypl Troubleshooting"
+description: "Fix common Rypl problems: connecting Facebook, Instagram and TikTok, an agent that isn't replying, and billing."
+last_modified_at: 2026-10-11
 ---
 
 # Troubleshooting
@@ -34,6 +35,12 @@ The free trial, changing plans, cancelling, failed payments and refunds.
 ## Contact
 
 Email [hey@rypl.is](mailto:hey@rypl.is) with your Rypl account email, the channel affected, the message you see and when it started. Ultra includes priority support.
+
+
+## More on rypl.is
+
+- [Comment management guides](https://www.rypl.is/guides): hide, turn off and auto-reply to comments on Facebook, Instagram and TikTok ads
+- [Ad comment glossary](https://www.rypl.is/glossary): dark posts, hidden comments, Moderation Assist and other terms
 
 ---
 

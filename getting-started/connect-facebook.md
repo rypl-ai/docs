@@ -1,7 +1,8 @@
 ---
 layout: default
-title: Connect Facebook, Instagram and TikTok — Rypl Documentation
-description: How to connect Facebook Pages, Instagram accounts and TikTok ad accounts to Rypl through the official Meta and TikTok APIs.
+title: "Connect Facebook, Instagram and TikTok"
+description: "How to connect Facebook Pages, Instagram accounts and TikTok ad accounts to Rypl through the official Meta and TikTok APIs."
+last_modified_at: 2026-10-11
 ---
 
 # Connect Your Channels
@@ -66,6 +67,16 @@ From **Channels** you can:
 ## Next Steps
 
 [Set up your AI agent](create-ai-agent.md).
+
+
+
+## More on rypl.is
+
+- [Facebook comment moderation tool](https://www.rypl.is/facebook-comment-moderation-tool): how Rypl answers and moderates comments on Facebook ads and posts
+- [Instagram comment moderation tool](https://www.rypl.is/instagram-comment-moderation-tool): AI replies and moderation for Instagram ads, posts and DMs
+- [TikTok ad comment moderation tool](https://www.rypl.is/tiktok-comment-moderation-tool): replies and moderation for comments on TikTok ads
+- [Instagram ad comment automation guide](https://www.rypl.is/blog/instagram-ad-comment-automation-guide): permissions, Reels and DMs
+- [How to manage comments on TikTok ads](https://www.rypl.is/blog/how-to-manage-tiktok-ad-comments): the complete guide
 
 ---
 

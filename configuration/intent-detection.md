@@ -1,7 +1,8 @@
 ---
 layout: default
-title: Intent Detection — Rypl Documentation
-description: How Rypl detects what each ad comment wants (a question, a purchase, a request, a complaint) and how to use it for replies, rules and filters. On every plan.
+title: "Intent Detection for Ad Comments"
+description: "How Rypl detects what each ad comment wants (a question, a purchase, a request, a complaint) and how to use it in replies, rules and filters."
+last_modified_at: 2026-10-11
 ---
 
 # Intent Detection
@@ -55,6 +56,13 @@ Sentiment is **Positive**, **Neutral** or **Negative**.
 ## Next Steps
 
 [Languages](multi-language.md).
+
+
+## More on rypl.is
+
+- [How to detect buying intent in ad comments](https://www.rypl.is/blog/detect-buying-intent-ad-comments): the questions that signal a buyer
+- [Ad comment statistics 2026](https://www.rypl.is/blog/ad-comment-statistics-2026): what people write under ads, RYPL data for Q3 2026
+- [Ad comment glossary](https://www.rypl.is/glossary): dark posts, hidden comments, Moderation Assist and other terms
 
 ---
 

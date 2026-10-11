@@ -1,7 +1,8 @@
 ---
 layout: default
-title: Comment Moderation Best Practices — Rypl Documentation
-description: When to hide, delete, answer or escalate comments on Facebook, Instagram and TikTok ads, and how to set up Rypl's filters and rules so they catch spam, not customers.
+title: "Ad Comment Moderation Best Practices"
+description: "When to hide, delete, answer or escalate comments on Facebook, Instagram and TikTok ads, and how to set Rypl's filters to catch spam, not customers."
+last_modified_at: 2026-10-11
 ---
 
 # Comment Moderation Best Practices
@@ -61,6 +62,15 @@ A complaint answered in public shows every later viewer that you respond. A thre
 ## Review what was hidden
 
 Every week, open the inbox filter **All hidden or deleted** and skim it. Unhide mistakes, then fix the cause: a banned word that's too broad, a rule that's too vague, or a tone filter that's too strict.
+
+
+## More on rypl.is
+
+- [How to respond to negative comments on Facebook](https://www.rypl.is/guides/respond-to-negative-comments-on-facebook): when to answer, hide or escalate
+- [How to respond to negative comments on Instagram](https://www.rypl.is/guides/respond-to-negative-comments-on-instagram): when to answer, hide or escalate
+- [Facebook comment moderation in 2026](https://www.rypl.is/blog/facebook-comment-moderation-guide): native tools, third-party software and AI compared
+- [How to turn off comments on Facebook ads](https://www.rypl.is/guides/turn-off-comments-on-facebook-ads): what Meta allows, step by step
+- [How to turn off comments on Instagram ads](https://www.rypl.is/guides/turn-off-comments-on-instagram-ads): what Instagram allows, step by step
 
 ---
 

@@ -1,7 +1,8 @@
 ---
 layout: default
-title: Go Live — Rypl Documentation
-description: Switch on AI replies and moderation in Rypl and what to check in your first day and first week.
+title: "Go Live: Turn On AI Replies"
+description: "Switch on AI replies and moderation in Rypl and what to check in your first day and first week."
+last_modified_at: 2026-10-11
 ---
 
 # Go Live
@@ -53,6 +54,14 @@ Moderation works even with **Reply with AI** off, so a channel can run on modera
 - A thread that is turning into an argument.
 
 You can reply, hide, unhide or delete from the inbox at any time (and edit replies on Facebook), and **Block author** hides a person's new comments on that channel without blocking them on Facebook.
+
+
+
+## More on rypl.is
+
+- [How to see and reply to comments on Facebook ads](https://www.rypl.is/blog/how-to-see-comments-on-facebook-ads): find every ad comment, dark posts included
+- [How to hide comments on Facebook ads automatically](https://www.rypl.is/blog/hide-comments-on-facebook-ads): where Meta's tools stop and rules in plain words take over
+- [Why comment response time affects ad performance](https://www.rypl.is/blog/comment-response-time-ad-performance): the case for answering fast
 
 ---
 

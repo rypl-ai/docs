@@ -1,7 +1,8 @@
 ---
 layout: default
-title: Billing — Rypl Documentation
-description: Rypl billing questions: the 7-day free trial, yearly billing, changing plans, cancelling, failed payments and refunds.
+title: "Rypl Billing, Trial and Cancellation"
+description: "Rypl billing questions: the 7-day free trial, yearly billing, changing plans, cancelling, failed payments and refunds."
+last_modified_at: 2026-10-11
 ---
 
 # Billing
@@ -56,6 +57,12 @@ Rypl shows **Payment required**. Click **Update payment method** in **Settings**
 
 - Invoices and receipts are in the billing portal: **Settings → Manage subscription**.
 - For a refund request, a double charge or a charge you don't recognise, email [hey@rypl.is](mailto:hey@rypl.is) with your account email, the date and the amount.
+
+
+## More on rypl.is
+
+- [Rypl pricing](https://www.rypl.is/pricing): plans from $19 a month, no comment limit, 7-day free trial
+- [Withdrawal form](https://www.rypl.is/withdrawal): for customers in the EU
 
 ---
 

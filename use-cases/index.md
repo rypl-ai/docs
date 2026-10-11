@@ -1,7 +1,8 @@
 ---
 layout: default
-title: Use Cases — Rypl Documentation
-description: How e-commerce brands, agencies and service businesses set up Rypl for comments on Facebook, Instagram and TikTok ads.
+title: "Rypl Use Cases"
+description: "How e-commerce brands, agencies and service businesses set up Rypl for comments on Facebook, Instagram and TikTok ads."
+last_modified_at: 2026-10-11
 ---
 
 # Use Cases
@@ -43,6 +44,13 @@ Service businesses and B2B companies using ads for leads: questions about pricin
 2. **Be specific in the agent's instructions.** Length, tone, what to say when it doesn't know.
 3. **Check the first week closely.** Read replies and hidden comments every day, and fix gaps in the knowledge base.
 4. **Keep complaints with a person.** Use Needs attention for anything that needs judgment.
+
+
+## More on rypl.is
+
+- [Facebook comment moderation tool](https://www.rypl.is/facebook-comment-moderation-tool): how Rypl answers and moderates comments on Facebook ads and posts
+- [How to stop losing sales in Facebook comments](https://www.rypl.is/blog/ecommerce-facebook-comment-automation): a guide for e-commerce brands
+- [Managing multiple Facebook Pages with AI: a guide for agencies](https://www.rypl.is/blog/facebook-automation-for-agencies): one agent per client
 
 ---
 

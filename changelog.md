@@ -1,7 +1,8 @@
 ---
 layout: default
-title: Changelog — Rypl Documentation
-description: What changed in Rypl, the AI reply and moderation tool for Facebook, Instagram and TikTok ad comments.
+title: "Rypl Changelog: What's New"
+description: "What changed in Rypl, the AI reply and moderation tool for Facebook, Instagram and TikTok ad comments, month by month."
+last_modified_at: 2026-10-11
 ---
 
 # Changelog
@@ -52,6 +53,14 @@ Details: [What's new in RYPL, October 2026](https://www.rypl.is/blog/whats-new-i
 ## 2025
 
 - **First release.** AI replies and moderation for Facebook comments, through the official Meta Graph API.
+
+
+
+## More on rypl.is
+
+- [What's new in RYPL (October 2026)](https://www.rypl.is/blog/whats-new-in-rypl-october-2026): moderation rules, reply rules and AI agents
+- [Rypl now supports TikTok ads](https://www.rypl.is/blog/rypl-now-supports-tiktok-ads): TikTok ad comments on the same engine
+- [Rypl pricing](https://www.rypl.is/pricing): plans from $19 a month, no comment limit, 7-day free trial
 
 ---
 

@@ -1,7 +1,8 @@
 ---
 layout: default
-title: Better AI Replies — Rypl Documentation
-description: How to make Rypl's AI replies to ad comments accurate and on-brand: knowledge base, instructions, tone, reply rules and weekly improvement.
+title: "How to Get Better AI Comment Replies"
+description: "How to make Rypl's AI replies to ad comments accurate and on-brand: knowledge base, instructions, tone, reply rules and weekly improvement."
+last_modified_at: 2026-10-11
 ---
 
 # Better AI Replies
@@ -63,6 +64,14 @@ Pick the **tone** that fits: Neutral, Seller, Positive or Direct. Most consumer 
 | Wrong product | The post wasn't read | Turn on **Read the post** (Pro and Ultra) |
 | Wrong formality in German or French | No instruction | Say *du/Sie*, *tu/vous* |
 | Same reply on every emoji | Broad rule | Add several **My text** variants or narrow the rule |
+
+
+## More on rypl.is
+
+- [Why generic auto-replies hurt your brand](https://www.rypl.is/blog/context-aware-replies-explained): what context-aware replies change
+- [AI vs rule-based comment automation](https://www.rypl.is/blog/ai-vs-rule-based-comment-automation): what actually works on Facebook
+- [How to auto-reply to Facebook comments](https://www.rypl.is/guides/auto-reply-to-facebook-comments): Meta's own options and where AI replies fit
+- [How to auto-reply to Instagram comments](https://www.rypl.is/guides/auto-reply-to-instagram-comments): Instagram's own options and where AI replies fit
 
 ---
 

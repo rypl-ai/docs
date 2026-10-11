@@ -1,7 +1,8 @@
 ---
 layout: default
-title: Reference — Rypl Documentation
-description: Reference for Rypl: pricing, FAQ, the intent labels on every comment, and the AI behind the replies.
+title: "Rypl Reference"
+description: "Reference for Rypl: pricing, FAQ, the intent labels on every comment, and the AI behind the replies."
+last_modified_at: 2026-10-11
 ---
 
 # Reference
@@ -49,6 +50,14 @@ The AI behind Rypl, what differs by plan, and why plans aren't tied to model nam
 | Glossary | [www.rypl.is/glossary](https://www.rypl.is/glossary) |
 | Blog | [www.rypl.is/blog](https://www.rypl.is/blog) |
 | Contact | [hey@rypl.is](mailto:hey@rypl.is) |
+
+
+## More on rypl.is
+
+- [Rypl pricing](https://www.rypl.is/pricing): plans from $19 a month, no comment limit, 7-day free trial
+- [Rypl vs the alternatives](https://www.rypl.is/compare): ReplyZen, ManyChat, NapoleonCat and Agorapulse compared, with sources
+- [Ad comment glossary](https://www.rypl.is/glossary): dark posts, hidden comments, Moderation Assist and other terms
+- [Comment management guides](https://www.rypl.is/guides): hide, turn off and auto-reply to comments on Facebook, Instagram and TikTok ads
 
 ---
 

@@ -1,7 +1,8 @@
 ---
 layout: default
-title: Sign Up — Rypl Documentation
-description: Create a Rypl account, describe your business, choose a plan and start the 7-day free trial.
+title: "Sign Up and Start the Free Trial"
+description: "Create a Rypl account, describe your business, choose a plan and start the 7-day free trial."
+last_modified_at: 2026-10-11
 ---
 
 # Sign Up for Rypl
@@ -56,6 +57,14 @@ Full details: [Pricing](../reference/pricing.md).
 ## Next Steps
 
 [Connect your channels](connect-facebook.md).
+
+
+
+## More on rypl.is
+
+- [Rypl pricing](https://www.rypl.is/pricing): plans from $19 a month, no comment limit, 7-day free trial
+- [Rypl vs the alternatives](https://www.rypl.is/compare): ReplyZen, ManyChat, NapoleonCat and Agorapulse compared, with sources
+- [The 6 best Facebook and Instagram ad comment automation tools](https://www.rypl.is/blog/best-facebook-instagram-comment-automation-tools): a sourced comparison
 
 ---
 

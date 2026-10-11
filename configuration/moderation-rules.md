@@ -1,7 +1,8 @@
 ---
 layout: default
-title: Moderation — Rypl Documentation
-description: How Rypl hides spam, hate and unwanted comments on Facebook, Instagram and TikTok ads: filters, banned words, Filter by tone, moderation rules in plain words and blocking authors.
+title: "Comment Moderation: Filters and Rules"
+description: "How Rypl hides spam, hate and unwanted comments on Facebook, Instagram and TikTok ads: filters, banned words, tone filter and rules in plain words."
+last_modified_at: 2026-10-11
 ---
 
 # Moderation
@@ -95,6 +96,16 @@ In the [inbox](inbox.md), filter by **All hidden or deleted**, or narrow it down
 ## Next Steps
 
 [Reply rules](reply-rules.md).
+
+
+## More on rypl.is
+
+- [How to hide comments on Facebook ads automatically](https://www.rypl.is/blog/hide-comments-on-facebook-ads): where Meta's tools stop and rules in plain words take over
+- [How to stop spam comments on Facebook](https://www.rypl.is/guides/stop-spam-comments-on-facebook): Meta's filters and automatic hiding
+- [How to stop spam comments on Instagram](https://www.rypl.is/guides/stop-spam-comments-on-instagram): hidden words, limits and automatic hiding
+- [How to stop spam comments on TikTok ads](https://www.rypl.is/guides/stop-spam-comments-on-tiktok-ads): blocked words, block user and hiding
+- [Keyword moderation: auto-filter spam](https://www.rypl.is/blog/keyword-moderation-auto-filter-spam): banned words done right
+- [Facebook comment moderation in 2026](https://www.rypl.is/blog/facebook-comment-moderation-guide): native tools, third-party software and AI compared
 
 ---
 

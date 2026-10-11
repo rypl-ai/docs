@@ -1,7 +1,8 @@
 ---
 layout: default
-title: Agent Not Replying — Rypl Documentation
-description: Why a Rypl AI agent isn't replying to Facebook, Instagram or TikTok comments, and how to fix it.
+title: "AI Agent Not Replying to Comments"
+description: "Why a Rypl AI agent isn't replying to Facebook, Instagram or TikTok comments, and how to fix it."
+last_modified_at: 2026-10-11
 ---
 
 # Agent Not Replying
@@ -65,6 +66,13 @@ Rypl handles comments on TikTok **ads**. Organic TikTok posts are not supported.
 ## Still not working?
 
 Email [hey@rypl.is](mailto:hey@rypl.is) with your Rypl account email, the channel, a link to the comment and when it was posted.
+
+
+## More on rypl.is
+
+- [How to auto-reply to Facebook comments](https://www.rypl.is/guides/auto-reply-to-facebook-comments): Meta's own options and where AI replies fit
+- [How to see and reply to comments on Facebook ads](https://www.rypl.is/blog/how-to-see-comments-on-facebook-ads): find every ad comment, dark posts included
+- [How to auto-reply to Instagram comments](https://www.rypl.is/guides/auto-reply-to-instagram-comments): Instagram's own options and where AI replies fit
 
 ---
 

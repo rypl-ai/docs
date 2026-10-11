@@ -1,7 +1,8 @@
 ---
 layout: default
-title: Connection Troubleshooting — Rypl Documentation
-description: Fix problems connecting Facebook Pages, Instagram accounts and TikTok ad accounts to Rypl: missing Pages, declined permissions, expired connections.
+title: "Fix Facebook, Instagram and TikTok Connection"
+description: "Fix problems connecting Facebook Pages, Instagram accounts and TikTok ad accounts to Rypl: missing Pages, declined permissions, expired connections."
+last_modified_at: 2026-10-11
 ---
 
 # Connection Troubleshooting
@@ -61,6 +62,13 @@ Only TikTok **ad** accounts can be connected; organic TikTok posts are not suppo
 ## Still stuck?
 
 Email [hey@rypl.is](mailto:hey@rypl.is) with your Rypl account email, the Page or ad account, the message you see and when it started.
+
+
+## More on rypl.is
+
+- [Instagram ad comment automation guide](https://www.rypl.is/blog/instagram-ad-comment-automation-guide): permissions, Reels and DMs
+- [How to manage comments on TikTok ads](https://www.rypl.is/blog/how-to-manage-tiktok-ad-comments): the complete guide
+- [Facebook comment moderation tool](https://www.rypl.is/facebook-comment-moderation-tool): how Rypl answers and moderates comments on Facebook ads and posts
 
 ---
 

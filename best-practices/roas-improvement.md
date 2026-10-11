@@ -1,7 +1,8 @@
 ---
 layout: default
-title: Measuring Results — Rypl Documentation
-description: How to measure what AI comment replies and moderation do for your Facebook, Instagram and TikTok ads: reply time, hidden spam, ROAS and cost per result.
+title: "Measure the Effect of Comment Replies on ROAS"
+description: "How to measure what AI comment replies and moderation do for your Facebook, Instagram and TikTok ads: reply time, hidden spam, ROAS and cost per result."
+last_modified_at: 2026-10-11
 ---
 
 # Measuring Results
@@ -62,6 +63,14 @@ Compare the same ads (same product, targeting and creative) with your baseline. 
 - **ROAS rose on some ads only:** those are usually the ads with the most questions.
 - **Many hides reversed:** a banned word or rule is too broad.
 - **Questions still unanswered:** the knowledge base is missing facts.
+
+
+## More on rypl.is
+
+- [Meta ads ROAS in 2026](https://www.rypl.is/blog/meta-ads-roas-2026): what's realistic by industry, with a calculator
+- [Why comment response time affects ad performance](https://www.rypl.is/blog/comment-response-time-ad-performance): the case for answering fast
+- [Facebook comment engagement rates 2026](https://www.rypl.is/blog/facebook-comment-engagement-rates-2026): what's normal by industry
+- [Ad comment statistics 2026](https://www.rypl.is/blog/ad-comment-statistics-2026): what people write under ads, RYPL data for Q3 2026
 
 ---
 
