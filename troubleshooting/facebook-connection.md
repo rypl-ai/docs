@@ -1,122 +1,66 @@
 ---
 layout: default
-title: Facebook Connection Troubleshooting — Rypl Documentation
-description: How to fix Facebook connection issues with Rypl, including OAuth errors, permission problems, and expired tokens.
+title: Connection Troubleshooting — Rypl Documentation
+description: Fix problems connecting Facebook Pages, Instagram accounts and TikTok ad accounts to Rypl: missing Pages, declined permissions, expired connections.
 ---
 
-# Facebook Connection Troubleshooting
-
-This guide covers common issues when connecting your Facebook Page to [Rypl](https://www.rypl.is) and how to resolve them.
-
----
-
-## Common Connection Issues
-
-### "Connection Failed" Error
-
-**Symptoms:** You click "Connect Facebook Page" but the process fails or returns an error message.
-
-**Solutions:**
-
-1. **Check your internet connection** — Ensure you have a stable connection. The OAuth flow requires communication between Rypl, your browser, and Facebook's servers.
-
-2. **Try a different browser** — Some browser extensions (especially ad blockers and privacy tools) can interfere with the OAuth flow. Try Chrome, Firefox, or Safari without extensions.
-
-3. **Clear browser cookies** — Stale Facebook login cookies can cause issues. Clear cookies for `facebook.com` and `rypl.is`, then try again.
-
-4. **Check Facebook's status** — Occasionally, Facebook's API experiences downtime. Check [Facebook's status page](https://www.facebook.com/business/help) for any ongoing issues.
-
-5. **Disable VPN** — If you are using a VPN, try disconnecting it. Some VPNs interfere with OAuth redirect flows.
+# Connection Troubleshooting
 
 ---
 
-### Page Not Appearing in the List
+## A Facebook Page doesn't appear
 
-**Symptoms:** After authenticating with Facebook, your Page does not appear in the list of available Pages to connect.
-
-**Solutions:**
-
-1. **Verify admin access** — You must have **admin** role on the Facebook Page. Editor or moderator roles are not sufficient. Check your role in Facebook Page Settings > Page Roles.
-
-2. **Check which Facebook account you used** — If you manage multiple Facebook accounts, ensure you logged in with the account that has admin access to the Page. Log out of Facebook, then reconnect using the correct account.
-
-3. **Review permissions granted** — During the OAuth flow, Facebook asks you to grant permissions. If you unchecked any Pages during this step, they will not appear in Rypl. Disconnect and reconnect, making sure all desired Pages are selected.
-
-4. **Page type restrictions** — Certain Page types may have restrictions. Ensure your Page is a standard Facebook Business Page.
-
-5. **Recently created Page** — Very new Pages may take a few minutes to appear in Meta's API. Wait 15-30 minutes and try again.
+1. **Check your role.** You need admin access to the Page (full control in Meta Business Suite).
+2. **Check the profile you signed in with.** If you manage Pages from more than one Facebook profile, sign in with the one that manages this Page.
+3. **Check the Pages you selected.** If you left the Page unchecked in Facebook's dialog, reconnect and select it.
+4. **Try Business profile.** If the Page belongs to a Meta Business portfolio, connect with **Business profile**: every Page you can access in the portfolio becomes available.
 
 ---
 
-### Permissions Not Granted Correctly
+## "Facebook permissions declined"
 
-**Symptoms:** Rypl is connected but cannot read comments or post replies. You may see "Insufficient permissions" errors.
-
-**Solutions:**
-
-1. **Re-grant permissions** — Disconnect your Page from Rypl and reconnect it. During the OAuth flow, ensure you grant all requested permissions:
-   - Read comments
-   - Reply to comments
-   - Manage messages
-   - Read Page content
-   - Moderate comments
-
-2. **Check Facebook's app permissions** — Go to Facebook Settings > Business Integrations (or Security and Login > Apps and Websites). Find Rypl in the list and verify that all permissions are enabled.
-
-3. **Remove and re-add** — If permissions are stuck in a bad state:
-   1. Go to Facebook Settings > Business Integrations
-   2. Remove Rypl from the list
-   3. Return to Rypl and reconnect your Page from scratch
+Rypl needs every permission it asks for to read comments and messages, reply and hide comments. If one was declined, Rypl shows which. Click **Connect Facebook** again and allow all requested permissions; Facebook shows the declined ones again.
 
 ---
 
-### Token Expired
+## "Token expired" or "Needs reconnect"
 
-**Symptoms:** Your Page was working but suddenly stopped. The dashboard may show a "Token expired" or "Reconnection required" message.
+Facebook and TikTok sometimes ask you to sign in again, for example after a password change or when a connection has been unused for a long time. Rypl marks the account **Expired** or **Needs reconnect**.
 
-**Solutions:**
-
-Facebook API tokens expire periodically. When this happens:
-
-1. **Reconnect from the dashboard** — Click the reconnect or refresh button next to the affected Page in your Rypl account settings
-2. **Re-authenticate** — If the reconnect button does not resolve it, disconnect the Page and reconnect it through the full OAuth flow
-3. **Check Facebook password** — If you recently changed your Facebook password, your API tokens may have been invalidated. Reconnecting will generate new tokens.
-4. **Two-factor authentication changes** — If you recently enabled or changed 2FA on your Facebook account, tokens may need to be refreshed
+- Click **Reconnect** (or **Click to reconnect**) on the account in **Channels** and sign in again. Your settings, agents and rules stay as they are.
+- Connections made with **Business profile** don't need re-login.
 
 ---
 
-### Multiple Accounts Confusion
+## "This Facebook Page is disconnected"
 
-**Symptoms:** You connected the wrong Facebook account, or Pages from different accounts are mixed up.
-
-**Solutions:**
-
-1. **Log out of all Facebook accounts** before starting the connection process
-2. **Use an incognito/private browser window** to ensure you connect the correct account
-3. **Disconnect incorrect connections** from your Rypl dashboard before adding the correct ones
-4. **Verify which account owns which Pages** in Facebook Business Suite before connecting
+The Page lost its connection, for example because you were removed from it or it was connected to another Rypl account. Reconnect the Facebook account that manages the Page.
 
 ---
 
-## After Resolving Connection Issues
+## The Instagram account doesn't appear
 
-Once your Facebook Page is successfully connected:
-
-1. **Verify the connection** — Check that the Page shows as connected (green/active) in your Rypl dashboard
-2. **Test with a comment** — Post a test comment on one of your ads to confirm Rypl detects and responds to it
-3. **Check agent assignment** — Ensure an active AI agent is assigned to the Page
-4. **Monitor for 24 hours** — Keep an eye on the connection for the first day to make sure it remains stable
+- It must be a **professional** (business or creator) account.
+- It must be **linked to the Facebook Page** you connected, in Meta Business Suite.
+- After linking, reconnect Facebook in Rypl.
 
 ---
 
-## Still Having Issues?
+## TikTok problems
 
-If these steps do not resolve your connection problem:
+| Message | What to do |
+|---|---|
+| "TikTok connection was cancelled or required permissions were not granted." | Click **Connect TikTok** again and authorize every permission |
+| "TikTok access was revoked or expired. Reconnect your TikTok account." | Reconnect from **Channels** |
+| "Insufficient TikTok permissions for this action." | Reconnect with an account that has access to the ad account |
 
-- Email [hey@rypl.is](mailto:hey@rypl.is) with your account email and a description of the issue
-- Include any error messages you are seeing
-- Mention which browser and operating system you are using
-- Note whether you are connecting a personal Page, Business Page, or Page managed through Business Suite
+Only TikTok **ad** accounts can be connected; organic TikTok posts are not supported.
+
+---
+
+## Still stuck?
+
+Email [hey@rypl.is](mailto:hey@rypl.is) with your Rypl account email, the Page or ad account, the message you see and when it started.
 
 ---
 

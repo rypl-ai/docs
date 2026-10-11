@@ -1,71 +1,61 @@
 ---
 layout: default
 title: Sign Up — Rypl Documentation
-description: How to create your Rypl account and start your 7-day free trial for AI-powered Facebook ad comment management.
+description: Create a Rypl account, describe your business, choose a plan and start the 7-day free trial.
 ---
 
 # Sign Up for Rypl
 
-Creating your [Rypl](https://www.rypl.is) account is the first step toward automated Facebook ad comment management. Every plan includes a 7-day free trial with full access to all features.
+---
+
+## Create your account
+
+1. Go to **[app.rypl.is/signup](https://app.rypl.is/signup)** and create an account.
+2. **Describe your business** in a few sentences: what you sell, who buys it, how you talk to customers.
+3. Rypl builds a **starting agent** and a starter set of moderation rules from that description. You can change everything later.
+4. **Connect your channels** (Facebook, Instagram, TikTok).
+5. **Choose a plan** and start the trial.
 
 ---
 
-## Create Your Account
+## Choosing a plan
 
-1. **Visit [app.rypl.is/signup](https://app.rypl.is/signup)** to open the registration page.
-2. **Enter your email address** and create a secure password.
-3. **Verify your email** by clicking the confirmation link sent to your inbox.
-4. **Choose a plan** that fits your needs.
+| | Simple | Pro | Ultra |
+|---|---|---|---|
+| **Price** | $19/mo | $49/mo | $89/mo |
+| **Billed yearly** | $15/mo ($182/year) | $39/mo ($470/year) | $71/mo ($854/year) |
+| **Accounts** | 1 | Up to 5 | Unlimited |
+| **Pages** | Up to 3 | Up to 20 | Unlimited |
+| **AI agents** | 1 | Unlimited | Unlimited |
+| **Replies to comments and DMs, knowledge base, intent detection** | ✅ | ✅ | ✅ |
+| **Spam and hate hidden automatically, banned words, Filter by tone** | ✅ | ✅ | ✅ |
+| **Read the post, moderation rules, reply rules, thank-you replies** | — | ✅ | ✅ |
+| **Remember the conversation** | — | — | ✅ |
+| **AI** | Smart AI | Smart AI | Most powerful AI |
+| **Priority support** | — | — | ✅ |
 
----
+No plan limits the number of comments.
 
-## Choosing the Right Plan
+- **Simple** fits one business with up to three pages that wants every question answered and spam hidden.
+- **Pro** is the most chosen plan: several pages or brands, rules written in plain words, and replies that read the post.
+- **Ultra** is for agencies and high-volume brands: unlimited accounts and pages, the most powerful AI and conversation memory.
 
-Rypl offers three plans, each with a 7-day free trial:
-
-| Feature | Simple ($19/mo) | Pro ($49/mo) | Ultra ($89/mo) |
-|---------|-----------------|--------------|-----------------|
-| AI Model | GPT-4 mini | GPT-4.1 | GPT-5 |
-| Facebook Accounts | 1 | Up to 5 | Unlimited |
-| Pages | 3 | 20 | Unlimited |
-| AI Agents | 2 | Unlimited | Unlimited |
-| Moderation | Basic | Advanced | Advanced |
-| Intent Detection | — | Yes | Yes |
-| Knowledge Base | — | Yes | Yes |
-| Conversational Memory | — | — | Full |
-| Priority Support | — | — | Yes |
-
-**Yearly billing** saves you money: Simple drops to $15/mo, Pro to $39/mo, and Ultra to $71/mo.
-
-All billing is handled securely through Lemon Squeezy. You can cancel anytime, and you will retain access until the end of your current billing cycle.
-
-### Which plan should you pick?
-
-- **Simple** is ideal if you manage a single Facebook Page with moderate comment volume and need basic spam moderation and auto-replies.
-- **Pro** is the best fit for businesses running multiple ad campaigns who want context-aware AI replies, intent detection, and knowledge base integration. This is the most popular plan.
-- **Ultra** is designed for high-volume advertisers and agencies that need unlimited pages, full conversational memory, and priority support.
+Full details: [Pricing](../reference/pricing.md).
 
 ---
 
-## About the 7-Day Free Trial
+## The 7-day free trial
 
-- Every plan starts with a **full-featured 7-day trial**.
-- You get access to all features available on your chosen plan tier.
-- No hidden limitations during the trial period.
-- You can upgrade, downgrade, or cancel at any time during the trial.
-- If you cancel before the trial ends, you will not be charged.
-
----
-
-## After Sign-Up
-
-Once your account is created and you have selected a plan, you are ready to connect your Facebook Page. Rypl will guide you through the connection process in the dashboard.
+- Every plan starts with **7 days free**: $0 today, and no charge until the trial ends.
+- Your set-up goes live the moment you start.
+- Cancel any time before the trial ends and you aren't charged.
+- One free trial per customer.
 
 ---
 
 ## Next Steps
 
-Proceed to [Connect Your Facebook Page](connect-facebook.md) to link your first page.
+[Connect your channels](connect-facebook.md).
 
 ---
 

@@ -1,155 +1,72 @@
 ---
 layout: default
-title: Marketing Agencies Use Case — Rypl Documentation
-description: How marketing agencies use Rypl to manage Facebook ad comments across multiple clients from a single dashboard.
+title: Marketing Agencies — Rypl Documentation
+description: How agencies use Rypl to answer and moderate comments on clients' Facebook, Instagram and TikTok ads, with one agent and knowledge base per client.
 ---
 
-# Marketing Agencies Use Case
+# Marketing Agencies
 
-Marketing agencies managing Facebook ads for multiple clients face a scaling problem: every new client means more comments to monitor, more brand voices to maintain, and more moderation rules to enforce. [Rypl](https://www.rypl.is) solves this with multi-account management, per-client AI agents, and a unified dashboard.
-
----
-
-## The Agency Challenge
-
-As an agency, you are juggling:
-
-- **Multiple clients** with different products, audiences, and brand voices
-- **Dozens of Facebook Pages** across different industries
-- **Comment volume** that scales with every new client you onboard
-- **Consistency** — each client expects on-brand, accurate replies
-- **Reporting** — clients want to see the impact of their ad spend
-
-Manual comment management does not scale. Hiring a team for each client is expensive. Rypl automates the entire process while giving you per-client customization.
+An agency's comment problem is the same as a brand's, multiplied by the number of clients, each with its own products, voice and rules. In Rypl each client gets its own agent and knowledge base, while rules you write once can cover every client.
 
 ---
 
-## Setting Up Rypl for Agency Use
+## Choosing a plan
 
-### Choosing the Right Plan
+| | Simple | Pro | Ultra |
+|---|---|---|---|
+| Accounts | 1 | Up to 5 | Unlimited |
+| Pages | Up to 3 | Up to 20 | Unlimited |
+| AI agents | 1 | Unlimited | Unlimited |
+| Moderation rules and reply rules | — | ✅ | ✅ |
+| Conversation memory | — | — | ✅ |
 
-| Need | Recommended Plan |
-|------|-----------------|
-| 1-5 clients, up to 20 pages | Pro ($49/mo) |
-| 5+ clients, unlimited pages | Ultra ($89/mo) |
-
-The **Pro plan** supports up to 5 Facebook accounts, 20 pages, and unlimited agents — enough for most small to mid-size agencies.
-
-The **Ultra plan** removes all limits: unlimited accounts, pages, and agents, plus full conversational memory and priority support.
-
-### Onboarding a New Client (10-15 Minutes)
-
-For each new client:
-
-1. **Connect their Facebook account** — Walk them through the Meta OAuth flow, or have them grant you admin access to their Page
-2. **Create a dedicated AI agent** — Name it after the client for easy identification
-3. **Configure brand voice** — Use the client's brand guidelines to set tone, style, and example replies
-4. **Upload their knowledge base** — Product catalog, FAQ, pricing, and policies specific to this client
-5. **Set moderation rules** — Configure blocklists and sensitivity based on the client's industry and audience
-6. **Activate** — Turn on the agent and monitor the first few interactions
-
-### Per-Client Configuration
-
-Each client gets a completely independent setup:
-
-| Configuration | Per-Client |
-|---------------|------------|
-| Brand Voice | Unique tone, style, and examples |
-| Knowledge Base | Client-specific products, FAQ, and policies |
-| Moderation Rules | Industry-appropriate sensitivity and blocklists |
-| AI Agent | Dedicated agent with independent settings |
-| Analytics | Separate performance metrics and reports |
-
-This means your fashion client's customers get a trendy, emoji-friendly experience while your B2B client's audience receives professional, detailed responses.
+There is no comment limit on any plan, so a client's viral ad doesn't change the bill. Most agencies need Pro (several clients, one agent each, and rules) or Ultra (more than 5 accounts or 20 pages). See [Pricing](../reference/pricing.md).
 
 ---
 
-## Dashboard Management for Agencies
+## Setting up a client
 
-### Unified Overview
-
-Your Rypl dashboard shows all clients in one view:
-
-- Total comments processed across all clients
-- Spam hidden per client
-- AI replies sent per Page
-- Response times and quality metrics
-- Intent distribution per client
-
-### Client Switching
-
-Quickly switch between client views to:
-
-- Review recent AI replies for quality
-- Check moderation logs for false positives
-- Update knowledge base with new products or pricing
-- Adjust brand voice based on client feedback
-- Pull performance data for client reports
-
-### Team Collaboration
-
-For agencies with multiple team members:
-
-- Assign team members to specific clients
-- Review AI replies before they go live (if required by the client)
-- Share insights and optimizations across similar client types
-- Standardize onboarding procedures for consistency
+1. **Connect the client's channels.** Their Facebook Pages and Instagram accounts through Meta, and their TikTok ad account through TikTok. You need admin access to the client's Page. See [Connect your channels](../getting-started/connect-facebook.md).
+2. **Create an agent for the client.** Describe the client's business in a few sentences and Rypl builds a starting agent. Name it after the client so the inbox is easy to read.
+3. **Fill the client's knowledge base.** Their website, files and Q&A.
+4. **Write the agent's instructions.** The client's tone, what to say when the agent doesn't know, topics to avoid.
+5. **Assign the agent to the client's channels.**
+6. **Add client-specific moderation.** Banned words for the channel (competitors, words the client never wants shown) and, on Pro and Ultra, rules for this channel on top of your global rules.
+7. **Check the first week.** Read replies and hidden comments for that client every day.
 
 ---
 
-## Client Reporting
+## Rules across clients
 
-Rypl provides the data you need to demonstrate value to your clients:
-
-### Key Metrics to Report
-
-- **Comment response rate** — "We responded to 98% of your ad comments within 60 seconds"
-- **Spam hidden** — "We blocked 347 spam comments from your ad sections this month"
-- **Engagement impact** — "AI replies generated 28% more conversions from comment interactions"
-- **ROAS improvement** — "Your return on ad spend improved by 12% since activating Rypl"
-- **Intent breakdown** — "43% of comments were purchase-intent, 22% were price inquiries"
-
-### Building Reports
-
-Pull metrics from your Rypl dashboard for each client. Combine with Facebook Ads Manager data to show the full picture: ad spend + Rypl performance = measurable ROI.
+- **Global rules** work on every Facebook Page, Instagram account and TikTok account you connect. Write the rules every client needs once: hide scam links, send refund requests to review.
+- **Rules for this channel** add client-specific rules on top.
+- A channel can **opt out** of global rules in its Moderation settings, for a client whose comments need different handling.
+- **Review first or Apply automatically.** Start a new rule in Review first, so matches wait for you, and switch it to Apply automatically once it catches the right comments.
 
 ---
 
-## Scaling Best Practices for Agencies
+## Running it day to day
 
-### Standardize Your Onboarding Process
+- **One inbox for every client.** Each reply shows which agent wrote it, and filters narrow the view to one channel.
+- **Needs attention** collects what needs a person across all clients: complaints, urgent questions and rule matches set to review.
+- **Suggest improvements** on each agent reads the questions that client's customers asked and proposes Q&A and instruction edits.
 
-Create a template for client onboarding:
+---
 
-1. **Client intake questionnaire** — Collect brand voice guidelines, product information, policies, and moderation preferences upfront
-2. **Knowledge base checklist** — Ensure every client provides: product catalog, FAQ, shipping policy, return policy, and current promotions
-3. **Brand voice template** — Start with a standard template and customize per client
-4. **Moderation defaults** — Set sensible defaults and adjust per client as needed
+## What to tell clients
 
-### Cross-Client Learning
-
-Insights from one client can improve others:
-
-- If a brand voice style drives higher engagement for one client, test it with similar clients
-- Share effective moderation rules across clients in the same industry
-- Identify knowledge base structures that produce the best AI replies
-
-### Handling Client Concerns
-
-Common client questions and how to address them:
-
-- **"Will the AI sound like our brand?"** — Show them the brand voice configuration and example replies
-- **"What if it says something wrong?"** — Explain the knowledge base system and your review process
-- **"Is this compliant with Meta's rules?"** — Rypl uses Meta's Official Graph API — fully compliant, zero ban risk
-- **"Can we review replies before they go out?"** — Yes, you can set up approval workflows
+- Replies are written by AI from the client's own facts and published automatically. Spam is flagged in about 1.7 seconds on average and hidden within seconds (RYPL's own measurement).
+- Complaints go to a person by default; negative comments are hidden only if the client chooses that.
+- Rypl connects through the official Meta Graph API and TikTok Marketing API, with no scraping or browser automation.
+- Results to compare: reply time, hidden spam, and ROAS before and after. Across RYPL accounts, brands saw about +10% ROAS in the first month (RYPL's own measurement); the client's result depends on their comments and their knowledge base.
 
 ---
 
 ## Next Steps
 
-- [Multi-Account Management](../configuration/multi-account.md) — Detailed multi-account configuration guide
-- [Brand Voice Configuration](../configuration/brand-voice.md) — Setting up per-client brand voices
-- [ROAS Improvement Playbook](../best-practices/roas-improvement.md) — Demonstrating ROI to clients
+- [Multiple accounts and pages](../configuration/multi-account.md)
+- [Moderation](../configuration/moderation-rules.md)
+- [Pricing](../reference/pricing.md)
 
 ---
 

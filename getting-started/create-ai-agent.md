@@ -1,106 +1,83 @@
 ---
 layout: default
 title: Create an AI Agent — Rypl Documentation
-description: Step-by-step guide to creating and configuring your Rypl AI agent with brand voice, knowledge base, and moderation rules.
+description: Set up a Rypl AI agent that replies to comments and DMs: instructions, tone, knowledge base, where it replies and how soon.
 ---
 
 # Create an AI Agent
 
-An AI agent is the core of Rypl. It reads your ad comments, understands intent, applies your brand voice, and replies using the knowledge you provide. This guide walks you through creating your first agent.
+An **agent** in Rypl is the AI that answers your comments and messages. It holds your instructions, your tone and your knowledge base. You assign an agent to channels; one agent can serve several channels, and agencies usually create one agent per client.
+
+If you described your business at sign-up, Rypl has already built your first agent. This page explains what to check.
+
+| | Simple | Pro | Ultra |
+|---|---|---|---|
+| AI agents | 1 | Unlimited | Unlimited |
 
 ---
 
-## What Is an AI Agent?
+## 1. Name
 
-Each AI agent in Rypl is configured for a specific purpose — typically mapped to a Facebook Page or client. An agent has three main components:
+Name the agent after the brand or client it serves, for example "Acme Store". Every reply in the inbox shows the agent that wrote it, with its own face.
 
-1. **Brand Voice** — How the agent communicates (tone, style, personality)
-2. **Knowledge Base** — What the agent knows (products, FAQs, policies)
-3. **Moderation Rules** — What the agent filters (spam, negative comments, blocked keywords)
+## 2. Instructions
 
-The number of agents you can create depends on your plan:
+Instructions tell the agent how to answer: what you sell, how to talk, what to do when it doesn't know. Up to 4,000 characters. Be specific:
 
-| Plan | Agents |
-|------|--------|
-| Simple | 2 |
-| Pro | Unlimited |
-| Ultra | Unlimited |
+- "Two sentences at most, then the product link."
+- "Never promise delivery dates; give the usual range from the shipping page."
+- "If someone is angry about an order, apologise and ask them to message us."
 
----
+See [Brand voice and instructions](../configuration/brand-voice.md).
 
-## Step-by-Step Agent Creation
+## 3. Tone
 
-### Step 1: Name Your Agent
+| Tone | What it sounds like |
+|---|---|
+| **Neutral** | Clear and professional: "It starts at $39. Want me to send the details?" |
+| **Seller** | Nudges toward buying: "Just $39, and it's our most popular option. Want to grab a spot today?" |
+| **Positive** | Warm and upbeat: "Great question! It's only $39. Happy to send you all the details 😊" |
+| **Direct** | Short and assertive: "$39. Details in DM." |
 
-Give your agent a descriptive name that helps you identify it later. For example: "Main Store Agent," "Client — Acme Co," or "Summer Campaign Bot."
+## 4. Knowledge base
 
-### Step 2: Set the Brand Voice
+The facts the agent answers from:
 
-Your brand voice determines how the AI writes replies. Configure:
+- **Website**: links in replies point here, and the agent can learn from the page.
+- **Q&A**: a question customers ask, and how the agent should answer it.
+- **Documents**: up to 3 files, 3 MB each (PDF, TXT, DOC, DOCX or CSV).
 
-- **Tone** — Friendly, professional, casual, formal, witty, or a custom combination
-- **Style Guidelines** — Specific instructions like "Use short sentences," "Include emojis sparingly," or "Always mention free shipping"
-- **Example Prompts** — Provide sample replies the agent can learn from to match your style
+The knowledge base learns when you save. See [Knowledge base](../configuration/knowledge-base.md).
 
-For a detailed guide on crafting the perfect brand voice, see [Brand Voice Configuration](../configuration/brand-voice.md).
+## 5. Where it replies and how soon
 
-### Step 3: Upload Your Knowledge Base
+- **Where it replies**: *Comments and messages* (default), *Comments only* or *Messages only*.
+- **How soon**: *Immediately* (default), *Within a few minutes*, *Within an hour* or *Within a day*.
 
-The knowledge base is what makes your AI agent truly useful. Without it, the agent can only give generic responses. With it, the agent can answer specific product questions, quote prices, explain policies, and more.
+## 6. Smarter replies
 
-Rypl supports seven knowledge base source types:
+- **Read the post** (Pro and Ultra): replies take the post into account, so "how much is this?" gets the price of the product in the ad.
+- **Remember the conversation** (Ultra): replies take earlier messages from the same person into account.
 
-| Source Type | Format | Best For |
-|-------------|--------|----------|
-| Product Catalog | PDF | Product specs, pricing, descriptions |
-| FAQ Answers | CSV | Common questions and approved answers |
-| Brand Voice | TXT | Tone guidelines, do's and don'ts |
-| Website URLs | URL | Pulling content from your website |
-| Database | Structured data | Inventory, pricing tables |
-| User Comments | Historical data | Learning from past interactions |
-| Conversation History | Chat logs | Understanding customer patterns |
+## 7. Reply rules (Pro and Ultra)
 
-Upload as many sources as you need. The more context your agent has, the better its replies will be. See [Knowledge Base Configuration](../configuration/knowledge-base.md) for format requirements and tips.
+Decide what happens to specific kinds of comments: let the agent answer, send a ready reply, or skip. Questions, purchase signals and requests are always answered. See [Reply rules](../configuration/reply-rules.md).
 
-### Step 4: Configure Moderation Rules
+## 8. Assign it to channels
 
-Define what the agent should filter out automatically:
-
-- **Spam Detection** — Enable automatic spam hiding (hidden in ~1.7 seconds)
-- **Negative Comment Handling** — Choose to hide, flag for review, or respond diplomatically
-- **Keyword Blocklists** — Add specific words or phrases that should trigger automatic hiding
-- **Custom Rules** — Create rules based on patterns, user behavior, or comment content
-
-See [Moderation Rules](../configuration/moderation-rules.md) for detailed configuration options.
-
-### Step 5: Assign to a Facebook Page
-
-Link your agent to one or more of your connected Facebook Pages. Each Page can have one active agent managing its comments.
-
-### Step 6: Review and Save
-
-Before saving, review all your settings:
-
-- Is the brand voice appropriate for your audience?
-- Does the knowledge base cover the most common customer questions?
-- Are moderation rules strict enough to catch spam but lenient enough to keep genuine comments?
-
-Save your agent configuration. You can edit any of these settings at any time.
+In each channel's **AI replies** settings, switch on **Reply with AI** and choose the agent. Language and emoji settings live on the channel: **Reply language** (*Detect automatically* replies in the language of each comment) and **Emojis in replies**.
 
 ---
 
-## Tips for a Great Agent
+## Improve it over time
 
-- **Start with your FAQ** — If you have an FAQ page on your website, this is the fastest way to give your agent useful knowledge
-- **Be specific in brand voice** — "Be friendly and helpful" is too vague. "Use short, upbeat sentences. Address the commenter by name when possible. Always mention our free 30-day return policy" is much better
-- **Start with moderate moderation** — You can always tighten rules later. Starting too strict may hide legitimate comments
-- **Test before going live** — Review the agent's configuration carefully before activating it
+**Suggest improvements** on the agent screen reads the questions real customers asked on the agent's channels, answered and unanswered, and proposes new Q&A and edits to the instructions. Where an answer needs something only you know, such as a price, it leaves a gap in [brackets] for you to fill in.
 
 ---
 
 ## Next Steps
 
-Your agent is configured and ready. Proceed to [Go Live](go-live.md) to activate it and start automating your comment management.
+[Go live](go-live.md).
 
 ---
 
