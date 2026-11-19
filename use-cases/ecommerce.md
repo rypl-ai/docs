@@ -2,7 +2,7 @@
 layout: default
 title: "AI Comment Replies for E-Commerce Ads"
 description: "How online stores use Rypl to answer price, stock and shipping questions under Facebook, Instagram and TikTok ads, and hide scams and spam."
-last_modified_at: 2026-10-11
+last_modified_at: 2026-11-19
 ---
 
 # E-Commerce
@@ -15,11 +15,11 @@ Comments under a store's ads are mostly buyers asking before they buy. In [RYPL'
 
 The agent can only quote facts it has. For a store, add:
 
-- **Your website.** Product pages, the FAQ, and the shipping and returns pages. Rypl reads the site you add.
-- **Files.** A price list, size charts, a returns policy, anything not on the site.
-- **Q&A.** The questions you get most, with the exact answer you want given: "Do you ship to Canada?", "Is it true to size?", "When will the black one be back?"
+- **Your website.** Product pages, the FAQ, and the shipping and returns pages. Click **Read it again** when the site changes.
+- **Files.** Up to 3 documents of 3 MB each: a price list, size charts, a returns policy, or a CSV product list (Rypl provides a template).
+- **Q&A.** The questions you get most, with the answer you want given: "Do you ship to Canada?", "Is it true to size?", "When will the black one be back?"
 
-Update it when prices, stock or offers change. The knowledge base learns the moment you save, so the next reply uses the new facts. For fast-moving stock, a Q&A like "Stock changes daily; check the product page for sizes in stock" is safer than a number that goes stale.
+Update it when prices, stock or offers change. The knowledge base learns when you save, so the next reply uses the new facts. For fast-moving stock, a Q&A like "Stock changes daily; check the product page for sizes in stock" is safer than a number that goes stale.
 
 ---
 
@@ -40,9 +40,9 @@ From Pro, agents read the ad before replying, so "how much is this one?" gets th
 
 ## Moderation for stores
 
-- **Spam and hate** are hidden automatically on every plan.
-- **Banned words** catch what you never want shown: competitor names, a rival store's domain, slurs. Up to 50 per channel.
-- **Scam accusations.** "Scam!" from a stranger and "I paid and never got my order" from a customer need different handling. On Pro, a moderation rule in plain words separates them, for example: *Hide comments that call us a scam without mentioning an order. Send comments about a missing or late order to review.*
+- **Spam and hate** are hidden by the moderation Rypl sets up at sign-up, on every plan. The **Spam & media filter** also takes down comments that carry links, attachments or competitor names, photo-only ones included.
+- **Banned words** catch what you never want shown: competitor names, a rival store's domain, slurs. Up to 50 for all channels and 50 more per channel.
+- **Scam accusations.** "Scam!" from a stranger and "I paid and never got my order" from a customer need different handling, and Rypl labels a scam accusation as a complaint, not spam. On Pro and Ultra, a moderation rule in plain words separates them, for example: *Hide comments that call us a scam without mentioning an order. Flag comments about a missing or late order for me.*
 - **Complaints** go to Needs attention so a person answers them. Hiding a real complaint by default makes other buyers suspicious.
 - **Filter by tone** can hide or delete negative comments on a channel if your ads draw a lot of hostility. It is off by default.
 
@@ -51,21 +51,21 @@ From Pro, agents read the ad before replying, so "how much is this one?" gets th
 ## Replies that sell
 
 - **Give the answer first, then the next step.** "It's $49, and free shipping over $60: [link]" beats "Check our website!"
-- **Answer in the buyer's language.** Agents reply in the language the person wrote in; you don't need a knowledge base per language.
+- **Answer in the buyer's language.** Agents reply in the language the person wrote in; you don't need a knowledge base per language. In RYPL's Q3 2026 data, 70% of analyzed comments weren't in English.
 - **Thank-you replies** (Pro and Ultra) answer praise like "love mine!" with a short, on-brand reply.
-- **Reply rules** (Pro and Ultra): send a ready reply for a giveaway keyword, or skip topics you never discuss in public.
+- **Reply rules** (Pro and Ultra): send your own text for a giveaway keyword, or keep the agent silent on topics you never discuss in public.
 
 ---
 
 ## TikTok ads
 
-Comments on TikTok ads go through the same agent and knowledge base. TikTok doesn't allow deleting other people's comments, so a delete rule hides the comment instead. Organic TikTok posts are not supported.
+Comments on TikTok ads go through the same agent and knowledge base. TikTok doesn't allow deleting other people's comments, so a delete rule hides the comment instead. Organic TikTok posts and TikTok messages are not supported.
 
 ---
 
 ## What to measure
 
-- Median reply time to questions under your ads.
+- How fast questions under your ads get a reply, and the share that got one (**Reply coverage** on the Dashboard).
 - Questions the agent answered badly or couldn't answer (each one is a knowledge base gap).
 - Hidden comments you had to unhide.
 - ROAS and cost per result in Ads Manager, compared with a baseline from before you switched Rypl on.
@@ -81,6 +81,8 @@ Comments on TikTok ads go through the same agent and knowledge base. TikTok does
 
 ## More on rypl.is
 
+- [What can I add to Rypl's knowledge base?](https://www.rypl.is/docs/agents/what-can-i-add-to-the-knowledge-base): website, Q&A and documents
+- [What does Rypl hide automatically?](https://www.rypl.is/docs/moderation/what-does-rypl-hide-automatically): banned words, rules and filters
 - [How to stop losing sales in Facebook comments](https://www.rypl.is/blog/ecommerce-facebook-comment-automation): a guide for e-commerce brands
 - [How to detect buying intent in ad comments](https://www.rypl.is/blog/detect-buying-intent-ad-comments): the questions that signal a buyer
 - [Facebook comment moderation tool](https://www.rypl.is/facebook-comment-moderation-tool): how Rypl answers and moderates comments on Facebook ads and posts
