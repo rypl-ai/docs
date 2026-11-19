@@ -2,7 +2,7 @@
 layout: default
 title: "Ad Comment Management for Agencies"
 description: "How agencies use Rypl to answer and moderate comments on clients' Facebook, Instagram and TikTok ads, with one agent and knowledge base per client."
-last_modified_at: 2026-10-11
+last_modified_at: 2026-11-19
 ---
 
 # Marketing Agencies
@@ -16,41 +16,46 @@ An agency's comment problem is the same as a brand's, multiplied by the number o
 | | Simple | Pro | Ultra |
 |---|---|---|---|
 | Accounts | 1 | Up to 5 | Unlimited |
-| Pages | Up to 3 | Up to 20 | Unlimited |
+| Channels with AI replies | Up to 3 | Up to 20 | Unlimited |
 | AI agents | 1 | Unlimited | Unlimited |
 | Moderation rules and reply rules | — | ✅ | ✅ |
+| [API and MCP server](../configuration/api-and-mcp.md) | — | ✅ | ✅ |
 | Conversation memory | — | — | ✅ |
 
-There is no comment limit on any plan, so a client's viral ad doesn't change the bill. Most agencies need Pro (several clients, one agent each, and rules) or Ultra (more than 5 accounts or 20 pages). See [Pricing](../reference/pricing.md).
+- **An account** is a Facebook or TikTok login; one Facebook login can bring several Pages.
+- **A channel** is a Facebook Page with its linked Instagram, or a TikTok ad account. Only channels with AI replies on count, so a client who only needs moderation can stay connected without using up the plan.
+
+There is no comment limit on any plan, so a client's viral ad doesn't change the bill. Pro fits several clients with one agent each and rules; Ultra removes the account and channel limits. See [Pricing](../reference/pricing.md).
 
 ---
 
 ## Setting up a client
 
-1. **Connect the client's channels.** Their Facebook Pages and Instagram accounts through Meta, and their TikTok ad account through TikTok. You need admin access to the client's Page. See [Connect your channels](../getting-started/connect-facebook.md).
-2. **Create an agent for the client.** Describe the client's business in a few sentences and Rypl builds a starting agent. Name it after the client so the inbox is easy to read.
+1. **Connect the client's channels.** Their Facebook Pages and Instagram accounts through Meta, and their TikTok ad account through TikTok. **Business profile** is the better choice for Pages in a client's Business portfolio: the connection doesn't need re-login. See [Connect your channels](../getting-started/connect-facebook.md).
+2. **Create an agent for the client** and name it after them, so the inbox is easy to read.
 3. **Fill the client's knowledge base.** Their website, files and Q&A.
 4. **Write the agent's instructions.** The client's tone, what to say when the agent doesn't know, topics to avoid.
-5. **Assign the agent to the client's channels.**
-6. **Add client-specific moderation.** Banned words for the channel (competitors, words the client never wants shown) and, on Pro and Ultra, rules for this channel on top of your global rules.
+5. **Assign the agent.** On **Channels**, pick the client's agent on each of their channel rows and switch on **Replies**. Every login appears as a separate group on **Channels**, which keeps each client's Pages side by side. Channels you add after sign-up start with replies off.
+6. **Check the client's moderation.** Click each new channel's row: **Filter by tone** and the **Spam & media filter** start off on channels added later. Add banned words **Only on this channel** (competitors, words the client never wants shown) and, on Pro and Ultra, rules for this channel on top of your global rules.
 7. **Check the first week.** Read replies and hidden comments for that client every day.
 
 ---
 
 ## Rules across clients
 
-- **Global rules** work on every Facebook Page, Instagram account and TikTok account you connect. Write the rules every client needs once: hide scam links, send refund requests to review.
-- **Rules for this channel** add client-specific rules on top.
-- A channel can **opt out** of global rules in its Moderation settings, for a client whose comments need different handling.
-- **Review first or Apply automatically.** Start a new rule in Review first, so matches wait for you, and switch it to Apply automatically once it catches the right comments.
+- **Global rules** apply to every channel that uses them. Write the rules every client needs once: hide scam links, flag refund requests for a person.
+- **Rules for this channel** add client-specific rules and banned words on top.
+- On a channel, the **Global rules** switch turns them off for that client, and **Choose which** unticks single rules or the global banned words.
+- **Review first or Apply automatically** is one setting for all your rules. Add new rules in Review first, so matches wait for you, and switch to Apply automatically once they catch the right comments.
 
 ---
 
 ## Running it day to day
 
-- **One inbox for every client.** Each reply shows which agent wrote it, and filters narrow the view to one channel.
-- **Needs attention** collects what needs a person across all clients: complaints, urgent questions and rule matches set to review.
-- **Suggest improvements** on each agent reads the questions that client's customers asked and proposes Q&A and instruction edits.
+- **One inbox for every client.** Each reply shows which agent wrote it, and filters narrow the view to one channel or platform.
+- **Needs attention** collects what needs a person across all clients: complaints, urgent questions and rule matches. **Needs review** shows only what your rules flagged.
+- **Suggest improvements** on each agent looks at that client's recent replies and unanswered questions and proposes Q&A and instruction edits.
+- **Numbers for client calls** (Pro and Ultra). Connect the [API and MCP server](../configuration/api-and-mcp.md) and ask an AI app such as Claude Code or Cursor for one client's complaints this week, the ad that draws the most of them, or what was hidden and why, or export the comments to your own spreadsheet. You can limit each connection to selected channels.
 
 ---
 
@@ -67,14 +72,18 @@ There is no comment limit on any plan, so a client's viral ad doesn't change the
 
 - [Multiple accounts and pages](../configuration/multi-account.md)
 - [Moderation](../configuration/moderation-rules.md)
+- [API and MCP server](../configuration/api-and-mcp.md)
 - [Pricing](../reference/pricing.md)
 
 
 ## More on rypl.is
 
+- [Can I use Rypl for several brands or clients?](https://www.rypl.is/docs/before-you-start/can-i-use-rypl-for-several-brands-or-clients): how agencies usually set it up
+- [How many accounts and Pages can I connect to Rypl?](https://www.rypl.is/docs/billing/how-many-accounts-and-pages-can-i-connect): accounts, channels with AI replies and the limits
 - [Managing multiple Facebook Pages with AI: a guide for agencies](https://www.rypl.is/blog/facebook-automation-for-agencies): one agent per client
-- [Rypl vs the alternatives](https://www.rypl.is/compare): ReplyZen, ManyChat, NapoleonCat and Agorapulse compared, with sources
-- [Rypl pricing](https://www.rypl.is/pricing): plans from $19 a month, no comment limit, 7-day free trial
+- [How to get Facebook, Instagram and TikTok ad comments through an API or MCP](https://www.rypl.is/blog/facebook-instagram-tiktok-comments-api): building it yourself or using one Rypl key
+- [Rypl vs the alternatives](https://www.rypl.is/compare): ReplyZen, ManyChat, NapoleonCat, Agorapulse, Respondology and BrandBastion compared, with sources
+- [RYPL pricing](https://www.rypl.is/pricing): plans from $19 a month, no comment limit, 7-day free trial
 
 ---
 

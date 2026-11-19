@@ -1,15 +1,15 @@
 ---
 layout: default
 title: "Create an AI Agent for Comments"
-description: "Set up a Rypl AI agent that replies to comments and DMs: instructions, tone, knowledge base, where it replies and how soon."
-last_modified_at: 2026-10-11
+description: "Set up a Rypl AI agent that replies to comments and DMs: instructions, tone, knowledge base, where and how soon it replies, and its channels."
+last_modified_at: 2026-11-19
 ---
 
 # Create an AI Agent
 
-An **agent** in Rypl is the AI that answers your comments and messages. It holds your instructions, your tone and your knowledge base. You assign an agent to channels; one agent can serve several channels, and agencies usually create one agent per client.
+In Rypl, an **agent** is the AI that writes your replies to comments and messages. Your instructions, tone and knowledge base all belong to it. A channel is answered by exactly one agent, while one agent can answer on as many channels as you like, which is why agencies usually set up an agent per client.
 
-If you described your business at sign-up, Rypl has already built your first agent. This page explains what to check.
+If you described your business at sign-up, Rypl has already drafted your first agent; this page explains what to check. Agents are under **AI Agents** in the sidebar.
 
 | | Simple | Pro | Ultra |
 |---|---|---|---|
@@ -17,62 +17,46 @@ If you described your business at sign-up, Rypl has already built your first age
 
 ---
 
-## 1. Name
+## 1. Persona: name, instructions and tone
 
-Name the agent after the brand or client it serves, for example "Acme Store". Every reply in the inbox shows the agent that wrote it, with its own face.
+- **Name**: call the agent after the brand or client it serves. Inside Rypl, every reply shows which agent wrote it.
+- **Business name**: the name the agent uses for your business; empty means the Page name.
+- **Agent Instructions**: how to answer, in up to 4,000 characters: reply length, words to use or avoid, what to do when it doesn't know. Be concrete: "Keep it to two sentences, then add the product link" helps; "be friendly" doesn't.
+- **Tone**: Neutral, Seller, Positive or Direct.
 
-## 2. Instructions
+Examples of each tone and of instructions that work: [Brand voice and instructions](../configuration/brand-voice.md).
 
-Instructions tell the agent how to answer: what you sell, how to talk, what to do when it doesn't know. Up to 4,000 characters. Be specific:
+## 2. Knowledge: what it answers from
 
-- "Two sentences at most, then the product link."
-- "Never promise delivery dates; give the usual range from the shipping page."
-- "If someone is angry about an order, apologise and ask them to message us."
+On the **Knowledge** tab:
 
-See [Brand voice and instructions](../configuration/brand-voice.md).
+- **Website**: the site replies link to, which the agent can also read and learn from.
+- **Q&A**: your most frequent customer questions, each with the answer you want given.
+- **Documents**: three files at most, 3 MB apiece, as PDF, TXT, DOCX or a CSV product list.
 
-## 3. Tone
+There's no train button: the knowledge base learns your changes when you save. See [Knowledge base](../configuration/knowledge-base.md).
 
-| Tone | What it sounds like |
-|---|---|
-| **Neutral** | Clear and professional: "It starts at $39. Want me to send the details?" |
-| **Seller** | Nudges toward buying: "Just $39, and it's our most popular option. Want to grab a spot today?" |
-| **Positive** | Warm and upbeat: "Great question! It's only $39. Happy to send you all the details 😊" |
-| **Direct** | Short and assertive: "$39. Details in DM." |
+## 3. Replies: where, how soon and to what
 
-## 4. Knowledge base
+On the **Replies** tab:
 
-The facts the agent answers from:
+- **Replies to**: *Comments and messages* (default), *Comments only* or *Messages only*.
+- **How soon**: *Immediately* (default), *Within a few minutes*, *Within an hour* or *Within a day*. On a new Facebook Page, *Within a few minutes* is the safer start, because Facebook may throttle a new Page that replies the moment a comment arrives.
+- **What it replies to**: questions, purchases and requests are answered by default. On Pro and Ultra, **Praise and support** adds thank-you replies, and [reply rules](../configuration/reply-rules.md) change what gets answered and how.
+- **Links**: how often replies include a link to your website.
+- **Smarter replies**: **Read the post** (Pro and Ultra) takes the post or ad into account, so "how much?" gets the price of what the ad shows. **Remember the conversation** (Ultra) uses earlier messages from the same person.
 
-- **Website**: links in replies point here, and the agent can learn from the page.
-- **Q&A**: a question customers ask, and how the agent should answer it.
-- **Documents**: up to 3 files, 3 MB each (PDF, TXT, DOC, DOCX or CSV).
+## 4. Assign it to channels
 
-The knowledge base learns when you save. See [Knowledge base](../configuration/knowledge-base.md).
+On **Channels**, pick the agent on each channel's row. On a channel that has no agent yet, picking one switches **Replies** on straight away, with **Undo** if you change your mind. **New agent** in the same menu creates another agent.
 
-## 5. Where it replies and how soon
-
-- **Where it replies**: *Comments and messages* (default), *Comments only* or *Messages only*.
-- **How soon**: *Immediately* (default), *Within a few minutes*, *Within an hour* or *Within a day*.
-
-## 6. Smarter replies
-
-- **Read the post** (Pro and Ultra): replies take the post into account, so "how much is this?" gets the price of the product in the ad.
-- **Remember the conversation** (Ultra): replies take earlier messages from the same person into account.
-
-## 7. Reply rules (Pro and Ultra)
-
-Decide what happens to specific kinds of comments: let the agent answer, send a ready reply, or skip. Questions, purchase signals and requests are always answered. See [Reply rules](../configuration/reply-rules.md).
-
-## 8. Assign it to channels
-
-In each channel's **AI replies** settings, switch on **Reply with AI** and choose the agent. Language and emoji settings live on the channel: **Reply language** (*Detect automatically* replies in the language of each comment) and **Emojis in replies**.
+Reply language, emojis and liking positive comments belong to the channel, not the agent: click the channel's row to set **Reply language**, **Emojis in replies** and, on Facebook, **Like positive comments**.
 
 ---
 
 ## Improve it over time
 
-**Suggest improvements** on the agent screen reads the questions real customers asked on the agent's channels, answered and unanswered, and proposes new Q&A and edits to the instructions. Where an answer needs something only you know, such as a price, it leaves a gap in [brackets] for you to fill in.
+**Suggest improvements**, under the instructions on the **Persona** tab, looks at the agent's recent replies and the questions it couldn't answer, then drafts new Q&A and edits to the instructions. You add each with a click. Where an answer needs a fact only you know, such as a price, the draft leaves a gap in [brackets] for you to fill in.
 
 ---
 
@@ -84,10 +68,14 @@ In each channel's **AI replies** settings, switch on **Reply with AI** and choos
 
 ## More on rypl.is
 
-- [How to auto-reply to Facebook comments](https://www.rypl.is/guides/auto-reply-to-facebook-comments): Meta's own options and where AI replies fit
-- [How to auto-reply to Instagram comments](https://www.rypl.is/guides/auto-reply-to-instagram-comments): Instagram's own options and where AI replies fit
-- [How to auto-reply to TikTok ad comments](https://www.rypl.is/guides/auto-reply-to-tiktok-ad-comments): what TikTok allows for ad comments
-- [Why generic auto-replies hurt your brand](https://www.rypl.is/blog/context-aware-replies-explained): what context-aware replies change
+- [How do I set up my first agent?](https://www.rypl.is/docs/getting-started/how-do-i-set-up-my-first-agent): what to check in the agent Rypl drafted
+- [What is an agent in Rypl?](https://www.rypl.is/docs/agents/what-is-an-agent): what lives on the agent and what on the channel
+- [Where and how soon does the Rypl agent reply?](https://www.rypl.is/docs/agents/where-and-how-soon-does-the-agent-reply): Replies to, How soon, Links and Smarter replies
+- [How does Rypl write a reply?](https://www.rypl.is/docs/agents/how-does-rypl-write-a-reply): from a new comment to a posted reply
+- [How to Auto-Reply to Facebook Comments (2026)](https://www.rypl.is/guides/auto-reply-to-facebook-comments): Meta's own options and where AI replies fit
+- [How to Auto-Reply to Instagram Comments (2026)](https://www.rypl.is/guides/auto-reply-to-instagram-comments): Instagram's own options and where AI replies fit
+- [How to Auto-Reply to TikTok Ad Comments (2026)](https://www.rypl.is/guides/auto-reply-to-tiktok-ad-comments): what TikTok allows for ad comments
+- [Why Generic Auto-Replies Hurt Your Brand?](https://www.rypl.is/blog/context-aware-replies-explained): what context-aware replies change
 
 ---
 

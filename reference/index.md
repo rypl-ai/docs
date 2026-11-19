@@ -1,8 +1,8 @@
 ---
 layout: default
 title: "Rypl Reference"
-description: "Reference for Rypl: pricing, FAQ, the intent labels on every comment, and the AI behind the replies."
-last_modified_at: 2026-10-11
+description: "Reference for Rypl: pricing and plan limits, FAQ, the intent labels on every comment, and the AI behind the replies."
+last_modified_at: 2026-11-19
 ---
 
 # Reference
@@ -12,10 +12,10 @@ last_modified_at: 2026-10-11
 ## Pages
 
 ### [Pricing](pricing.md)
-Simple $19, Pro $49 and Ultra $89 a month, flat, with no comment limit. What each plan includes, yearly billing and the 7-day free trial.
+Simple $19, Pro $49 and Ultra $89 a month, flat, with no comment limit. What each plan includes, what the account and channel limits count, yearly billing and the 7-day free trial.
 
 ### [FAQ](faq.md)
-Platforms, pricing, replies, moderation, safety and how Rypl compares with other tools.
+Platforms, pricing, replies, DMs, moderation, safety, the API and MCP server, and how Rypl compares with other tools.
 
 ### [Supported Intents](supported-intents.md)
 The labels Rypl puts on every comment and message (Question, Purchase, Request, Complaint, Feedback, Sharing, Spam, User-to-user, Other), with examples.
@@ -31,11 +31,14 @@ The AI behind Rypl, what differs by plan, and why plans aren't tied to model nam
 |---|---|
 | **What it is** | AI replies and moderation for comments and DMs on Facebook and Instagram, plus comments on TikTok ads |
 | **Plans** | Simple $19, Pro $49, Ultra $89 per month; about 20% less billed yearly |
+| **Plan limits** | Accounts (1, 5, unlimited) and channels with AI replies (3, 20, unlimited); moderation runs on every connected channel |
 | **Comment limit** | None, on any plan |
 | **Free trial** | 7 days, every plan |
 | **Replies** | Under 60 seconds on the default setting (RYPL's own measurement) |
 | **Spam** | Flagged in about 1.7 seconds on average, hidden within seconds (RYPL's own measurement) |
-| **Languages** | The language each comment is written in |
+| **Languages** | The language each comment is written in, or one you set per channel |
+| **TikTok** | Ad comments; organic TikTok posts and TikTok messages aren't supported |
+| **API and MCP server** | Pro and Ultra, free trial included; a connected app can't reply or delete |
 | **Connection** | Official Meta Graph API and TikTok Marketing API |
 
 ---
@@ -45,6 +48,7 @@ The AI behind Rypl, what differs by plan, and why plans aren't tied to model nam
 | | |
 |---|---|
 | Website | [www.rypl.is](https://www.rypl.is) |
+| Help center | [www.rypl.is/docs](https://www.rypl.is/docs) |
 | App | [app.rypl.is](https://app.rypl.is) |
 | Guides | [www.rypl.is/guides](https://www.rypl.is/guides) |
 | Glossary | [www.rypl.is/glossary](https://www.rypl.is/glossary) |
@@ -54,8 +58,10 @@ The AI behind Rypl, what differs by plan, and why plans aren't tied to model nam
 
 ## More on rypl.is
 
-- [Rypl pricing](https://www.rypl.is/pricing): plans from $19 a month, no comment limit, 7-day free trial
-- [Rypl vs the alternatives](https://www.rypl.is/compare): ReplyZen, ManyChat, NapoleonCat and Agorapulse compared, with sources
+- [Rypl documentation](https://www.rypl.is/docs): the help center, one question per page
+- [How much does Rypl cost?](https://www.rypl.is/docs/before-you-start/how-much-does-rypl-cost): plans, yearly prices and what each plan adds
+- [RYPL pricing](https://www.rypl.is/pricing): plans from $19 a month, no comment limit, 7-day free trial
+- [Rypl vs the alternatives](https://www.rypl.is/compare): ReplyZen, ManyChat, NapoleonCat, Agorapulse, Respondology and BrandBastion compared, with sources
 - [Ad comment glossary](https://www.rypl.is/glossary): dark posts, hidden comments, Moderation Assist and other terms
 - [Comment management guides](https://www.rypl.is/guides): hide, turn off and auto-reply to comments on Facebook, Instagram and TikTok ads
 

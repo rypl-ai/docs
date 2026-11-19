@@ -2,7 +2,7 @@
 layout: default
 title: "Measure the Effect of Comment Replies on ROAS"
 description: "How to measure what AI comment replies and moderation do for your Facebook, Instagram and TikTok ads: reply time, hidden spam, ROAS and cost per result."
-last_modified_at: 2026-10-11
+last_modified_at: 2026-11-19
 ---
 
 # Measuring Results
@@ -37,10 +37,10 @@ Write down, for the ads you'll compare:
 Read every reply and every hidden comment. Fill knowledge base gaps. Don't judge ROAS yet.
 
 ### Week 2: tune
-Run **Suggest improvements**, add rules for repeated questions, and check what your rules flagged in **Review first**.
+Run **Suggest improvements**, add rules for repeated questions, and check what your rules flagged in **Needs review**.
 
 ### Weeks 3 and 4: compare
-Compare the same ads (same product, targeting and creative) with your baseline. If you can, run two similar ad sets at the same time with Rypl on only one channel.
+Compare the same ads (same product, targeting and creative) with your baseline. Replies are switched on per channel, so for a side-by-side test you need two comparable Pages or ad accounts, with **Replies** on for only one of them.
 
 ---
 
@@ -50,10 +50,12 @@ Compare the same ads (same product, targeting and creative) with your baseline. 
 |---|---|
 | ROAS, cost per result, conversion rate | Ads Manager |
 | Quality ranking, engagement rate ranking | Ads Manager → ad relevance diagnostics |
-| Reply time to questions | Rypl inbox |
-| Spam and scam comments hidden, and hides you reversed | Rypl inbox → **All hidden or deleted** |
-| Questions left unanswered | Rypl inbox, and **Suggest improvements** |
+| AI replies, reply coverage, questions | Rypl **Dashboard**, for the period you pick |
+| Spam and scam comments hidden | Rypl **Dashboard** (**Hidden or deleted**) and the inbox's **Hidden or deleted** view, to spot mistakes |
+| Questions the agent couldn't answer | **Suggest improvements** on the agent |
 | Hours your team spends on comments | Your team |
+
+On Pro and Ultra, the [API and MCP server](../configuration/api-and-mcp.md) give you the same data outside Rypl: ask a connected AI app how fast your agent replies or which ad draws the most complaints, or export comments to set them next to spend and orders in a spreadsheet or data warehouse.
 
 ---
 
@@ -61,12 +63,14 @@ Compare the same ads (same product, targeting and creative) with your baseline. 
 
 - **Reply time fell but ROAS didn't move:** check reply quality. Fast, vague answers don't sell.
 - **ROAS rose on some ads only:** those are usually the ads with the most questions.
-- **Many hides reversed:** a banned word or rule is too broad.
+- **Many hidden comments you had to unhide:** a banned word or rule is too broad.
 - **Questions still unanswered:** the knowledge base is missing facts.
 
 
 ## More on rypl.is
 
+- [What does the Rypl dashboard show?](https://www.rypl.is/docs/dashboard/what-does-the-dashboard-show): the tiles and what each one counts
+- [What can I ask an AI app about my comments?](https://www.rypl.is/docs/api/what-can-i-ask-an-ai-app-about-my-comments): questions a connected app can answer
 - [Meta ads ROAS in 2026](https://www.rypl.is/blog/meta-ads-roas-2026): what's realistic by industry, with a calculator
 - [Why comment response time affects ad performance](https://www.rypl.is/blog/comment-response-time-ad-performance): the case for answering fast
 - [Facebook comment engagement rates 2026](https://www.rypl.is/blog/facebook-comment-engagement-rates-2026): what's normal by industry

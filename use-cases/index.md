@@ -1,8 +1,8 @@
 ---
 layout: default
 title: "Rypl Use Cases"
-description: "How e-commerce brands, agencies and service businesses set up Rypl for comments on Facebook, Instagram and TikTok ads."
-last_modified_at: 2026-10-11
+description: "How e-commerce brands, agencies and service businesses set up Rypl for comments and DMs on Facebook, Instagram and TikTok ads."
+last_modified_at: 2026-11-19
 ---
 
 # Use Cases
@@ -19,7 +19,7 @@ Stores and direct-to-consumer brands selling through Facebook, Instagram and Tik
 
 ### [Marketing Agencies](agencies.md)
 
-Agencies running ads for several clients. One agent and knowledge base per client, global rules plus rules per channel, and plans sized by accounts and pages.
+Agencies running ads for several clients. One agent and knowledge base per client, global rules plus rules per channel, and plans sized by accounts and channels with AI replies.
 
 ### [B2B and Services](b2b-services.md)
 
@@ -33,8 +33,8 @@ Service businesses and B2B companies using ads for leads: questions about pricin
 |---|---|---|---|
 | **Most common comments** | Price, stock, sizes, shipping | Depends on the client | Pricing, availability, how to book |
 | **Knowledge base focus** | Product pages, shipping and returns, current offers | One per client | Services, prices or price ranges, booking steps |
-| **Rules worth writing** | Hide scam claims and competitor links; send order complaints to review | Global rules for everyone, rules per client channel | Send "talk to sales" requests to review |
-| **Typical plan** | Simple for one store, Pro for several pages and rules | Pro for up to 5 accounts, Ultra for unlimited | Simple or Pro |
+| **Rules worth writing** | Hide scam links and competitor links; send order complaints to review | Global rules for everyone, rules per client channel | Flag "talk to sales" requests for a person |
+| **Typical plan** | Simple for one store, Pro for more channels and rules | Pro for up to 5 accounts, Ultra for unlimited | Simple or Pro |
 
 ---
 
@@ -48,6 +48,8 @@ Service businesses and B2B companies using ads for leads: questions about pricin
 
 ## More on rypl.is
 
+- [Who is Rypl for?](https://www.rypl.is/docs/before-you-start/who-is-rypl-for): brands, stores, agencies and freelancers
+- [Can I use Rypl for several brands or clients?](https://www.rypl.is/docs/before-you-start/can-i-use-rypl-for-several-brands-or-clients): one agent per brand, one inbox
 - [Facebook comment moderation tool](https://www.rypl.is/facebook-comment-moderation-tool): how Rypl answers and moderates comments on Facebook ads and posts
 - [How to stop losing sales in Facebook comments](https://www.rypl.is/blog/ecommerce-facebook-comment-automation): a guide for e-commerce brands
 - [Managing multiple Facebook Pages with AI: a guide for agencies](https://www.rypl.is/blog/facebook-automation-for-agencies): one agent per client
