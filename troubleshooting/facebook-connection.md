@@ -2,7 +2,7 @@
 layout: default
 title: "Fix Facebook, Instagram and TikTok Connection"
 description: "Fix connecting Facebook Pages, Instagram accounts and TikTok ad accounts to Rypl: missing Pages, expired logins, Instagram DMs owned by another app."
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-23
 ---
 
 # Connection Troubleshooting
@@ -76,7 +76,7 @@ A reply you send yourself from the inbox takes the conversation over too, as lon
 | **TikTok is still reviewing this ad account** | Wait for TikTok to approve the ad account |
 | **Not active in TikTok Ads** | Check the ad account in TikTok Ads Manager |
 
-Only TikTok **ad** accounts can be connected; organic TikTok posts and TikTok messages aren't supported.
+Comments on your own TikTok posts come through a separate **TikTok account** channel, connected from the same **Connect channel** menu. TikTok messages aren't supported.
 
 ---
 

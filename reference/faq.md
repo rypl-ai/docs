@@ -2,7 +2,7 @@
 layout: default
 title: "Rypl FAQ: Comment Replies and Moderation"
 description: "Answers about Rypl, the AI tool for Facebook, Instagram and TikTok ad comments: platforms, pricing, DMs, moderation, safety, the API and comparisons."
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-23
 faq:
   - title: About Rypl
     questions:
@@ -11,16 +11,16 @@ faq:
           Rypl is AI software that replies to and moderates comments and DMs on Facebook and Instagram, plus comments on TikTok ads. AI agents answer buyers in your brand voice from your knowledge base, spam and hate are hidden automatically, and complaints wait for a person in one inbox. Brands and agencies running paid social use it so buyers get answers fast and the thread under the ad stays clean.
       - q: Which platforms does Rypl support?
         a: |
-          Facebook (comments on ads and Page posts, and Messenger), Instagram (comments on ads, posts and Reels, and Direct messages) and TikTok (comments on ads). Every platform is on every plan. On TikTok, Rypl handles ad comments only: organic TikTok posts and TikTok messages aren't supported.
+          Facebook (comments on ads and Page posts, and Messenger), Instagram (comments on ads, posts and Reels, and Direct messages) and TikTok (comments on ads). Every platform is on every plan. On TikTok, Rypl handles comments on ads and, once the TikTok account is connected, on its own posts; TikTok messages aren't supported.
       - q: Does Rypl work with Instagram?
         a: |
           Yes. Rypl answers and moderates comments on Instagram ads, posts and Reels and replies to Instagram Direct messages, including replies to your Stories, which arrive as DMs. An Instagram professional account connects through the Facebook Page it is linked to and shares that Page's agent and settings. See the [Instagram comment moderation tool](https://www.rypl.is/instagram-comment-moderation-tool).
       - q: Does Rypl work with TikTok?
         a: |
-          Yes, for comments on TikTok ads, with the same agent, knowledge base and moderation as Facebook and Instagram. TikTok only lets advertisers hide other people's comments, so where a rule would delete, Rypl hides instead. Organic TikTok posts and TikTok messages aren't supported. See the [TikTok ad comment moderation tool](https://www.rypl.is/tiktok-comment-moderation-tool).
+          Yes, for comments on TikTok ads, with the same agent, knowledge base and moderation as Facebook and Instagram. TikTok only lets advertisers hide other people's comments, so where a rule would delete, Rypl hides instead. Connect the TikTok account itself as well, and Rypl handles the comments on your own TikTok posts too. TikTok messages aren't supported. See the [TikTok ad comment moderation tool](https://www.rypl.is/tiktok-comment-moderation-tool).
       - q: Does Rypl handle organic posts or only ads?
         a: |
-          Both, on Facebook and Instagram: comments on ads (including dark posts) and on regular posts. On TikTok, ads only.
+          Both, on Facebook and Instagram: comments on ads (including dark posts) and on regular posts. On TikTok too, once you connect the TikTok account as well as your TikTok ads.
   - title: Pricing
     questions:
       - q: How much does Rypl cost?

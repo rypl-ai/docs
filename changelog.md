@@ -2,7 +2,7 @@
 layout: default
 title: "Rypl Changelog: What's New"
 description: "What changed in Rypl, the AI tool that replies to and moderates comments and DMs on Facebook and Instagram and comments on TikTok ads, month by month."
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-23
 ---
 
 # Changelog
@@ -23,6 +23,7 @@ Details: [API and MCP server](configuration/api-and-mcp.md) and [How to Get Face
 
 | Date | What changed | Plans |
 |------|--------------|-------|
+| 26 Oct | **TikTok accounts.** Besides TikTok ads, you can connect a **TikTok account** in **Connect channel**. Rypl then answers, hides and can like comments on that account's own posts, Spark Ads that run as it included. TikTok messages aren't supported | Every plan |
 | 19 Oct | **A new Channels page.** One **Connect channel** menu for Facebook, Instagram and TikTok ads; each channel's row has its agent and a **Replies** switch that apply at once; clicking a row opens its reply and moderation settings; **Global rules** is a card at the top of the page | Every plan |
 | 19 Oct | **Inbox views in the sidebar**: Needs attention, Needs review, Negative, AI replies, and Hidden or deleted. Select many conversations and mark them read or reviewed, hide or delete them in one go | Every plan |
 | 19 Oct | **Instagram DMs another app handles.** When a chatbot or helpdesk owns a Page's Instagram DMs, Channels says so, and the Page's **Instagram DMs** setting leaves them to that app or lets Rypl take them over (beta). A reply you send from the Inbox takes the conversation over when the Page allows it | Every plan |
@@ -56,7 +57,7 @@ Details: [What's New in RYPL: Moderation Rules, Reply Rules and AI Agents (Octob
 
 ## March 2026
 
-- **TikTok ads.** Comments on TikTok ads are answered and moderated on the same engine as Facebook and Instagram. TikTok doesn't allow deleting other people's comments, so Rypl hides them. Rypl handles comments on TikTok ads only: organic TikTok posts and TikTok messages are not supported. Details: [Rypl Now Supports TikTok Ads: AI Comment Management for Advertisers](https://www.rypl.is/blog/rypl-now-supports-tiktok-ads).
+- **TikTok ads.** Comments on TikTok ads are answered and moderated on the same engine as Facebook and Instagram. TikTok doesn't allow deleting other people's comments, so Rypl hides them. At launch this covered ads; TikTok accounts followed in October 2026. Details: [Rypl Now Supports TikTok Ads: AI Comment Management for Advertisers](https://www.rypl.is/blog/rypl-now-supports-tiktok-ads).
 - **Instagram Direct replies.** Agents answer Instagram DMs as well as comments.
 
 ## February 2026

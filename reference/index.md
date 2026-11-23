@@ -2,7 +2,7 @@
 layout: default
 title: "Rypl Reference"
 description: "Reference for Rypl: pricing and plan limits, FAQ, the intent labels on every comment, and the AI behind the replies."
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-23
 ---
 
 # Reference
@@ -37,7 +37,7 @@ The AI behind Rypl, what differs by plan, and why plans aren't tied to model nam
 | **Replies** | Under 60 seconds on the default setting (RYPL's own measurement) |
 | **Spam** | Flagged in about 1.7 seconds on average, hidden within seconds (RYPL's own measurement) |
 | **Languages** | The language each comment is written in, or one you set per channel |
-| **TikTok** | Ad comments; organic TikTok posts and TikTok messages aren't supported |
+| **TikTok** | Ad comments, and comments on your own posts once the TikTok account is connected; TikTok messages aren't supported |
 | **API and MCP server** | Pro and Ultra, free trial included; a connected app can't reply or delete |
 | **Connection** | Official Meta Graph API and TikTok Marketing API |
 
