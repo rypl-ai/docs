@@ -2,7 +2,7 @@
 layout: default
 title: "Rypl Docs"
 description: "Official documentation for Rypl, the AI tool that replies to and moderates comments and DMs on Facebook and Instagram, plus comments on TikTok ads."
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-23
 ---
 
 # Rypl Documentation
@@ -30,7 +30,7 @@ These pages walk through setting Rypl up and getting good results from it. For a
 | **Instagram** | Ads and posts, Reels included | Direct messages |
 | **TikTok** | Ads | — |
 
-Every platform is on every plan. On TikTok, Rypl handles comments on ads: organic TikTok posts and TikTok messages are not supported.
+Every platform is on every plan. On TikTok, Rypl handles comments on your ads and, once you connect the account itself, on your own TikTok posts; TikTok messages are not supported.
 
 ---
 

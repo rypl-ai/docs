@@ -2,7 +2,7 @@
 layout: default
 title: "Connect Facebook, Instagram and TikTok"
 description: "How to connect Facebook Pages, Instagram accounts and TikTok ad accounts to Rypl from Connect channel, through the official Meta and TikTok APIs."
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-23
 ---
 
 # Connect Your Channels
@@ -40,7 +40,7 @@ If it doesn't show up, check that it is a professional (business or creator) acc
 2. Sign in to TikTok for Business, authorize Rypl and pick the ad accounts it should handle.
 3. Choose an agent and switch on **Replies** on each ad account's row, as you would for a Page.
 
-Rypl handles comments on **TikTok ads**. Organic TikTok posts and TikTok messages are not supported. TikTok doesn't allow deleting other people's comments, so on TikTok Rypl hides them instead. When you first connect, comments from about the last 24 hours can come in as well.
+For comments on your own TikTok posts, connect the account itself too: choose **TikTok account** in **Connect channel**, sign in on TikTok's page and authorize Rypl. It's a separate channel with its own agent and **Replies** switch, and it also takes the comments under Spark Ads that run as that account. TikTok messages are not supported. TikTok doesn't allow deleting other people's comments, so on TikTok Rypl hides them instead. When you first connect, comments from about the last 24 hours can come in as well.
 
 ---
 

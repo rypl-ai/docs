@@ -2,7 +2,7 @@
 layout: default
 title: "AI Comment Replies for E-Commerce Ads"
 description: "How online stores use Rypl to answer price, stock and shipping questions under Facebook, Instagram and TikTok ads, and hide scams and spam."
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-23
 ---
 
 # E-Commerce
@@ -59,7 +59,7 @@ From Pro, agents read the ad before replying, so "how much is this one?" gets th
 
 ## TikTok ads
 
-Comments on TikTok ads go through the same agent and knowledge base. TikTok doesn't allow deleting other people's comments, so a delete rule hides the comment instead. Organic TikTok posts and TikTok messages are not supported.
+Comments on TikTok ads, and on your own TikTok posts once the account is connected, go through the same agent and knowledge base. TikTok doesn't allow deleting other people's comments, so a delete rule hides the comment instead. TikTok messages are not supported.
 
 ---
 
